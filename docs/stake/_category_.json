@@ -1,0 +1,12 @@
+{
+  "position": 3,
+  "label": "Stake Delegation",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "stake",
+    "title": "Treasury Stake Delegation",
+    "description": "Description."
+  }
+}

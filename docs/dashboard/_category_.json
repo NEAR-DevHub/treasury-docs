@@ -1,0 +1,12 @@
+{
+  "position": 1,
+  "label": "Dashboard",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "dashboard",
+    "title": "Treasury Dashboard",
+    "description": "Description."
+  }
+}

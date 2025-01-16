@@ -1,0 +1,52 @@
+/**
+ * SCSS files with the .module.scss suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ .heroCard {
+  a {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    transition: all var(--ifm-transition-fast) ease;
+    transition-property: border, box-shadow;
+    background-color: transparent;
+    color: var(--ifm-link-color);
+
+    &:hover {
+      border-color: var(--ifm-content-card-border-active);
+      text-decoration: none;
+    }
+
+    h4 {
+      --ifm-h4-font-size: 16px;
+      --ifm-heading-font-weight: 500;
+      --ifm-heading-line-height: 150%;
+      color: var(--ifm-card-title);
+      font-family: "Inter";
+      margin: 0;
+    }
+
+    p {
+      --ifm-line-height-base: 170%;
+      color: var(--ifm-card-description);
+      margin: 0;
+    }
+  }
+}
+
+.svgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid var(--ifm-svg-wrapper-border-color);
+  background: var(--ifm-svg-wrapper-color);
+  width: 44px;
+  margin-bottom: var(--ifm-heading-margin-bottom);
+}
+
+.cardSvg {
+  width: 23px;
+  height: 23px;
+}

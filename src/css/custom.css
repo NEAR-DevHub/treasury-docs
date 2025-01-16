@@ -1,0 +1,135 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Aeonik-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Aeonik-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Aeonik-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Aeonik-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Aeonik-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Aeonik-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Aeonik-RegularItalic.woff2") format("woff2");
+}
+
+.navbar__brand .navbar__title {
+  margin-top: 5px;
+}
+
+.navbar__item.navbar__link {
+  margin-top: 5px;
+}
+
+.navbar__title, .github-link {
+  color: var(--ifm-card-title);
+}
+
+.main-wrapper .background-line-svg, .main-wrapper .background-line-svg-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: light-dark(#00ec97, #ee00dd);
+  z-index: -1;
+}
+
+.table-of-contents, .breadcrumbs__item:not(:first-child) .breadcrumbs__link {
+  font-size: var(--ifm-font-size-base);
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 32px;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 25px;
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 20px;
+}
+
+h1 {
+  font-family: "Aeonik";
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-family: "Aeonik";
+  font-weight: 400;
+}

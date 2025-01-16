@@ -1,0 +1,12 @@
+{
+  "position": 2,
+  "label": "Payments",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "payments",
+    "title": "Treasury Payments",
+    "description": "Description."
+  }
+}
