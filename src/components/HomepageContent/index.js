@@ -24,21 +24,21 @@ export default function HomepageContent() {
       <section className="row">
         <Card
           Svg={require('@site/static/img/multisig.svg').default}
-          title="Multi-Signature Security"
-          description="Launch your treasury quickly with multi-signature approvals. Customize voting policies for your team’s needs."
+          title="Table of Contents"
+          description="Welcome to the Near Treasury documentation."
           to="/intro"
         />
         <Card
           Svg={require('@site/static/img/transparency.svg').default}
-          title="Full Transparency"
-          description="Gain complete visibility into your treasury’s activity. Easily track balances, transactions, and history."
-          to="/intro"
+          title="Getting Started"
+          description="Create your Treasury in a few simple steps."
+          to="/quickstart"
         />
         <Card
           Svg={require('@site/static/img/operations.svg').default}
-          title="Streamlined Operations"
-          description="Jointly manage payments, staking, and token swaps. Handle all assets, including funds held in a lock up account."
-          to="/intro"
+          title="Payments"
+          description="Core features for managing your funds."
+          to="/payments/intro"
         />
       </section>
     </div>
