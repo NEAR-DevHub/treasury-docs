@@ -10,5 +10,5 @@ jobs:
           node-version: '22'
       - name: Build Docusaurus docs
         run: |
-          cd website && npm install
+          npm install
           npm run build
