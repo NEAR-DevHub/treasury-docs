@@ -8,6 +8,8 @@ description: Configure your NEAR Treasury dashboard.
 
 The Settings section allows you to configure various aspects of your NEAR Treasury dashboard.
 
+![Settings](/img/screens/settings.png)
+
 ## Pending Requests
 
 When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request and cast your vote.

@@ -10,6 +10,8 @@ keywords: [NEAR Treasury, Payments]
 
 This section covers the core features for managing your treasury's funds.
 
+![Payments](/img/screens/payments.png)
+
 ## Creating Payment Requests
 
 To create a new payment request:

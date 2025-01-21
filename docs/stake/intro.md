@@ -11,6 +11,8 @@ import TabItem from '@theme/TabItem';
 
 You can stake your treasury's tokens to earn rewards or unstake them to regain access to the funds.
 
+![Stake Delegation](/img/screens/stake.png)
+
 ## Staking Tokens
 
 To stake tokens:
