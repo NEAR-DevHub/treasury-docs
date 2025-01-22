@@ -38,7 +38,7 @@ export default function HomepageContent() {
           Svg={require('@site/static/img/operations.svg').default}
           title="Payments"
           description="Core features for managing your funds."
-          to="/payments/intro"
+          to="/payments"
         />
       </section>
     </div>
