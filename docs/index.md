@@ -56,11 +56,9 @@ NEAR Treasury is designed with security as a top priority. Here are some key fea
 
 -   **Secure Key Management:** Employ robust methods for storing and managing private keys, such as hardware wallets or secure enclaves.
 
--   **Regular security audits:** Conduct regular security audits to identify and address potential vulnerabilities.
-
 -   **Educate your team:** Ensure all team members are aware of security best practices and potential threats.
 
--   **Access Control:** Enforce strict access control measures, including multi-factor authentication and role-based permissions, to limit access to sensitive information and functionalities .
+-   **Access Control:** Enforce strict access control measures using role-based permissions, to limit access to sensitive information and functionalities.
     
 
 ## Troubleshooting
