@@ -1,6 +1,7 @@
 ---
 sidebar_position: 0
-title: Quick Start
+sidebar_label: "Quick Start"
+title: Quick Start Guide
 description: Introduction
 ---
 

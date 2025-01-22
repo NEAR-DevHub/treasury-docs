@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "Dashboard"
-title: Dashboard Overview
+title: Dashboard
 description: A centralized overview of your treasury's finances.
 ---
 

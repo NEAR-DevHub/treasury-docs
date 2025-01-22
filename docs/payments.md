@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: "Payments"
-title: Payments Overview
+title: Payments
 description: Core features for managing your treasury's funds.
 keywords: [NEAR Treasury, Payments]
 ---

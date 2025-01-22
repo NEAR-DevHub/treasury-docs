@@ -104,7 +104,17 @@ const config = {
           {
             label: "Documentation",
             position: "left",
-            to: "/intro"
+            to: "/"
+          },
+          {
+            label: "Web site",
+            position: "left",
+            to: "https://neartreasury.com/"
+          },
+          {
+            label: "Contact us",
+            position: "right",
+            to: "https://neartreasury.com/contact-form"
           },
           {
             href: 'https://github.com/NEAR-DevHub/treasury-docs',
