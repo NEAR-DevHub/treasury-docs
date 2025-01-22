@@ -13,10 +13,10 @@ Welcome to the NEAR Treasury documentation! This guide will help you get the mos
 #### Table of Contents
 
 - [Getting Started](quickstart.md)
-- [Dashboard](dashboard/intro.md)
-- [Payments](payments/intro.md)
-- [Stake Delegation](stake/intro.md)
-- [Settings](settings/intro.md)
+- [Dashboard](dashboard.md)
+- [Payments](payments.md)
+- [Stake Delegation](stake.md)
+- [Settings](settings.md)
 
 ## What is NEAR Treasury?
 
