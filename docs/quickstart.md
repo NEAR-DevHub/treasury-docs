@@ -74,3 +74,12 @@ _(e.g., `My Near Treasury`)_
 <center>
 <img src="/img/create/treasury-creation-7.png" width="60%" />
 </center>
+
+## Next steps
+
+Now that you have your Treasury up and running, be sure to check the following articles to learn more about the available features:
+
+- [Dashboard](dashboard.md)
+- [Payments](payments.md)
+- [Stake Delegation](stake.md)
+- [Settings](settings.md)
