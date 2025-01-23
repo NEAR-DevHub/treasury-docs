@@ -49,6 +49,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: "https://github.com/NEAR-DevHub/treasury-docs/edit/main/",
           routeBasePath: "/",
+          breadcrumbs: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -94,7 +95,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Treasury Docs',
+        title: 'Docs',
         logo: {
           alt: 'Treasury Logo',
           src: 'img/near_logo.svg',
@@ -107,7 +108,7 @@ const config = {
             to: "/"
           },
           {
-            label: "Web site",
+            label: "Website",
             position: "left",
             to: "https://neartreasury.com/"
           },
