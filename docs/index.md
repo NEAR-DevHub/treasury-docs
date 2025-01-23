@@ -13,10 +13,10 @@ Welcome to the NEAR Treasury documentation! This guide will help you get the mos
 #### Table of Contents
 
 - [Getting Started](quickstart.md)
-- [Dashboard](dashboard/intro.md)
-- [Payments](payments/intro.md)
-- [Stake Delegation](stake/intro.md)
-- [Settings](settings/intro.md)
+- [Dashboard](dashboard.md)
+- [Payments](payments.md)
+- [Stake Delegation](stake.md)
+- [Settings](settings.md)
 
 ## What is NEAR Treasury?
 
@@ -52,40 +52,24 @@ NEAR Treasury is a powerful tool designed to simplify and secure the way teams a
 
 NEAR Treasury is designed with security as a top priority. Here are some key features and recommendations for protecting your treasury:
 
--   Multi-signature security: All important actions, like making payments or changing settings, require approval from multiple team members. This helps prevent unauthorized access and fraudulent transactions.
-    
--   Strong passwords: Use complex and unique passwords for your NEAR Treasury account. Avoid reusing passwords from other services.
-    
--   Two-factor authentication (2FA): Enable 2FA for an extra layer of security. This adds an additional verification step when logging in.
-    
--   Regular security audits: Conduct regular security audits to identify and address potential vulnerabilities .
-    
--   Stay updated: Keep your NEAR Treasury software up-to-date with the latest security patches and updates.
-    
--   Educate your team: Ensure all team members are aware of security best practices and potential threats.
-    
--   Secure Key Management: Employ robust methods for storing and managing private keys, such as hardware security modules (HSMs) or secure enclaves .
-    
--   Transaction Verification: Implement rigorous signature verification procedures to prevent unauthorized transactions .
-    
--   Access Control: Enforce strict access control measures, including multi-factor authentication and role-based permissions, to limit access to sensitive information and functionalities .
-    
--   Data Encryption: Encrypt all sensitive data both in transit and at rest to protect against data breaches .
-    
--   Secure Communication: Ensure secure communication channels between users and the system, as well as between different components of the system .
+-   **Multi-signature security:** All important actions, like making payments or changing settings, require approval from multiple team members. This helps prevent unauthorized access and fraudulent transactions.
+
+-   **Secure Key Management:** Employ robust methods for storing and managing private keys, such as hardware wallets or secure enclaves.
+
+-   **Educate your team:** Ensure all team members are aware of security best practices and potential threats.
+
+-   **Access Control:** Enforce strict access control measures using role-based permissions, to limit access to sensitive information and functionalities.
     
 
 ## Troubleshooting
 
 While NEAR Treasury is designed to be user-friendly and reliable, issues can sometimes arise. Here are some common problems and solutions:
 
-- **_I forgot my password_**: If you forget your password, you can usually reset it by following the instructions on the login screen.
-    
 - **_I'm having trouble approving a request_**: Ensure you have the necessary permissions and that the request is still pending. If the issue persists, check the voting duration settings.
     
 - **_My transaction is not going through_**: Verify that you have sufficient funds and that the recipient's wallet address is correct. If the issue continues, check the status of the NEAR network.
     
 
 :::tip
-If you encounter a problem that's not listed here, please contact the [NEAR Treasury support team](#) for assistance.
+If you encounter a problem that's not listed here, please contact the [NEAR Treasury support team](https://neartreasury.com/contact-form) for assistance.
 :::

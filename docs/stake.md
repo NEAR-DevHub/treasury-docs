@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
-sidebar_label: Introduction
-title: Stake Delegation Overview
+sidebar_position: 3
+sidebar_label: Stake Delegation
+title: Stake Delegation
 description: Stake and unstake your treasury's tokens.
 ---
 import Tabs from '@theme/Tabs';
