@@ -5,7 +5,7 @@ title: Using a Ledger device
 description: Using a ledger device to confirm your actions
 ---
 
-# About ledger devices
+# About Ledger devices
 
 A [Ledger device](https://www.ledger.com/) lets you confirm transactions outside your computer. If connected with a ledger device, the app you are interacting with does not have any access keys to your account, and has to ask your ledger to confirm every blockchain transaction. Your private key, which is needed to sign a transaction, is then on the ledger device. With a web wallet or mobile wallet app, that private key is stored in the wallet application, on your computer or mobile device. With a ledger, you have a dedicated device for the private keys. While there are fewer attack surfaces on a separate ledger device, compared to a web or mobile wallet, you still need to trust the ledger just as much as any other wallet software for keeping your keys safe.
 
