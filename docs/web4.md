@@ -9,10 +9,10 @@ description: Upgrading the web4 contract and setting social link preview metadat
 
 Instances created by the treasury factory, will get two accounts:
 
-- `<name>.sputnik-dao.near`
-- `<name>.near`
+- `your-treasury-name.sputnik-dao.near`
+- `your-treasury-name.near`
 
-The first account will have the sputnik-dao contract deployed, and the second will get a web4 contract. [Web4](https://github.com/vgrichina/web4) contracts acts as a web server, so that you can get a dedicated page for your treasury in addition to gateways like https://near.social or https://dev.near.org. You can find the web4 page for your treasury at https://<name>.near.page.
+The first account will have the sputnik-dao contract deployed, and the second will get a web4 contract. [Web4](https://github.com/vgrichina/web4) contracts acts as a web server, so that you can get a dedicated page for your treasury in addition to gateways like https://near.social or https://dev.near.org. You can find the web4 page for your treasury at https://your-treasury-name.near.page.
 
 ## Upgrading the web4 contract
 
@@ -28,10 +28,10 @@ Once installed you can type the following in a terminal to download the `treasur
 near contract download-wasm treasury-testing.near save-to-file treasury-web4.wasm network-config mainnet now
 ```
 
-The next step is to deploy the contract to your treasury account. You can do this by typing the following (remember to replace `<name>` with your own treasury account name):
+The next step is to deploy the contract to your treasury account. You can do this by typing the following (remember to replace `your-treasury-name` with your own treasury account name):
 
 ```bash
-near contract deploy <name>.near use-file treasury-web4.wasm without-init-call network-config mainnet
+near contract deploy your-treasury-name.near use-file treasury-web4.wasm without-init-call network-config mainnet
 ```
 
 Follow the instructions to sign the transaction using your preferred way of signing. You may access the web4 account with the same key that you used to create the treasury.
