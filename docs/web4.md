@@ -38,7 +38,9 @@ Follow the instructions to sign the transaction using your preferred way of sign
 
 ## Setting social link preview metadata
 
-A feature of web4 is to provide metadata for social link previews. The treasury factory will set some defaults when creating the treasury, but you may set your own metadata by calling the `set_social_metadata` function of the web4 contract.
+A feature of the treasury web4 contract is to provide metadata for social link previews. The treasury factory will set some defaults when creating the treasury, but you may set your own metadata by calling the `set_social_metadata` function of the web4 contract.
+
+The `set_social_metadata` function accepts JSON arguments with the fields `name`, `description` and `ipfs_cid`. *IPFS CID* is a content identifier for [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), and near.social hosts an IPFS gateway so that you can reach files uploaded to IPFS via the browser. The image file uploaded with the CID `bafybeihsid3qgrb2dd4adsd4kuwe3pondtjr3u27ru6e2mbvabvm4rocru` can be reached at the URL https://ipfs.near.social/ipfs/bafybeihsid3qgrb2dd4adsd4kuwe3pondtjr3u27ru6e2mbvabvm4rocru.
 
 Here is an example that was used to set metadata for the treasury created at https://webassemblymusic-treasury.near.page ( remember to replace `webassemblymusic-treasury.near` with your treasury web4 account name.
 
