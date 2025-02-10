@@ -25,10 +25,6 @@ export default function SupportContent() {
     Gleap.openFeatureRequests(false);
   };
 
-  const runGleapNews = () => {
-    Gleap.openNews(false);
-  };
-
   return (
     <div className="container">
       <section className="row">
