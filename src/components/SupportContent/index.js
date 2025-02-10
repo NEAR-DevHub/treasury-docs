@@ -7,13 +7,10 @@ import styles from './index.module.scss';
 
 function Card({ Svg, title, description, to }) {
   return (
-    <div className={clsx('col col--4 margin-bottom--lg', styles.heroCard)}>
+    <div className={clsx('col col--6 margin-bottom--lg', styles.heroCard)}>
       <Link onClick={to} to='#' className='card padding--lg'>
-        <div className={styles.svgWrapper}>
-          <Svg className={styles.cardSvg} role="img" />
-        </div>
-        <h4 className='text--truncate'>{title}</h4>
-        <p className='text--truncate'>{description}</p>
+        <h3><Svg className={styles.cardSvg} role="img" /> <b>{title}</b></h3>
+        <p>{description}</p>
       </Link>
     </div>
   );
@@ -36,21 +33,15 @@ export default function SupportContent() {
     <div className="container">
       <section className="row">
         <Card
-          Svg={require('@site/static/img/operations.svg').default}
-          title="Messages"
-          description="Send us a message"
+          Svg={require('@site/static/img/questioncol.svg').default}
+          title="Ask a question"
+          description="We are here to help."
           to={runGleapConversations}
         />
         <Card
-          Svg={require('@site/static/img/transparency.svg').default}
-          title="News"
-          description="Latest News"
-          to={runGleapNews}
-        />
-        <Card
-          Svg={require('@site/static/img/multisig.svg').default}
-          title="Feature Requests"
-          description="Ask for a feature"
+          Svg={require('@site/static/img/ideacol.svg').default}
+          title="Request a feature"
+          description="What would you like to see?"
           to={runGleapFeatureRequests}
         />
       </section>
