@@ -7,7 +7,7 @@ import SupportContent from '@site/src/components/SupportContent';
 
 ## Get in Touch
 
-We're here to help!
+Choose from the options below to get started.
 
 <SupportContent />
 
