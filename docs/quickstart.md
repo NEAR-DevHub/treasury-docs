@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
 sidebar_label: "Getting Started"
 title: Getting Started Guide
 description: Introduction
@@ -22,6 +22,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
     -   Ledger users can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
 3.  Confirm your wallet.
     -   This is the account that will be used to pay for creating the treasury and will be your initial administrator account.
+
 <center>
 <img src="https://github.com/user-attachments/assets/e3dcdced-f18e-4623-a174-a44173b7f298" width="60%" />
 </center>
