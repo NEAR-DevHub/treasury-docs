@@ -15,7 +15,7 @@ Welcome to the NEAR Treasury documentation! This guide will help you get the mos
 
 NEAR Treasury is a multi-signature treasury management dashboard built on the [SputnikDAO](https://github.com/near-daos/sputnik-dao-contract) V2 Contract. Whether you're a small grant recipient or large DAO, NEAR Treasury simplifies your treasury operations.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/ab12bb40bc8049fba432b373a41ec7b2?sid=d190c992-090b-428a-82a7-427bd7101d85" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<center><iframe src="https://www.loom.com/embed/ab12bb40bc8049fba432b373a41ec7b2?sid=d190c992-090b-428a-82a7-427bd7101d85" frameborder="0" width="80%" height="400" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
 
 With NEAR Treasury, you can:
 
