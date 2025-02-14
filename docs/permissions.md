@@ -13,7 +13,7 @@ NEAR Treasury uses a role-based permissions system to ensure secure and transpar
 -   **Treasury Transaction Requests** involve actions related to the movement or management of the treasury's funds, such as creating payments, staking tokens, or exchanging assets.
 -   **Treasury Configuration Requests** involve actions related to the setup and management of the treasury itself, such as adding or removing members, adjusting voting thresholds and durations, or changing the treasury's appearance.
 
-Each member of your treasury can have one or more permission groups assigned that determines their capabilities within the system. There are three distinct groups: **Requestor**, **Approver**, and  **Admin**.
+Each member of your treasury can have one or more permission groups assigned that determines their capabilities within the system. There are three distinct groups: [**Requestor**](#1-requestor), [**Approver**](#2-approver), and  [**Admin**](#3-admin).
 
 ## Understanding the Permission Groups
 
@@ -22,13 +22,12 @@ Each member of your treasury can have one or more permission groups assigned tha
 Allows to create requests related to the treasury's funds (e.g. treasury transaction requests).
 
 **Can:**
-
 -   Create payment requests.
 -   Create staking, unstaking, and withdraw requests.
 -   Create asset exchange requests.
 -   Delete their own treasury transaction requests
-**Cannot:**
 
+**Cannot:**
 -   Vote on treasury transaction requests created by others.
 -   Create or vote on treasury configuration requests (e.g., changing settings, adding members).
 
@@ -37,10 +36,9 @@ Allows to create requests related to the treasury's funds (e.g. treasury transac
 Responsible for reviewing and voting on treasury transaction requests.
 
 **Can:**
-
 -   Vote to approve or reject treasury transaction requests created by Requestors.
-**Cannot:**
 
+**Cannot:**
 -   Create treasury transaction requests.
 -   Create or vote on treasury configuration requests.
 -   Delete requests.
@@ -49,8 +47,7 @@ Responsible for reviewing and voting on treasury transaction requests.
 
 Responsible for configuring the treasury's settings and member configuration.
 
-Can:
-
+**Can:**
 -   Create requests to add, edit, or delete members.
 -   Create requests to update the voting duration.
 -   Create requests to update the treasury's theme and logo.
@@ -58,15 +55,16 @@ Can:
 -   Vote on any treasury configuration requests.
 -   Delete their own configuration requests
 
-Cannot:
-
+**Cannot:**
 -   Create treasury transaction requests (e.g., payments, staking).
 -   Vote on treasury transaction requests.
 
 ### Important Notes
 
--   A member can have multiple roles assigned. For example, a user can have both a “Requester” and “Approver” roles.
+:::tip
+-   A member can have multiple roles assigned. For example, a user can have both a `Requester` and `Approver` roles.
 -   A user with multiple roles will have the combined permissions granted by each of their assigned roles.
+:::
 
 ## Permission Matrix
 

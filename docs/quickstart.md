@@ -29,7 +29,10 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 4.  Enter a name for your treasury application (e.g., “myteam-treasury”).
     -   In this step you are creating two accounts: NEAR Account and SputnikDAO account.
-    -   Note: We currently only support creating new SputnikDAO accounts. To import an existing account, [contact our team](https://docs.neartreasury.com/support).
+
+:::tip
+We currently only support creating new SputnikDAO accounts. To import an existing account, [contact our team](https://docs.neartreasury.com/support).
+:::
 
 <center>
 <img src="https://github.com/user-attachments/assets/6b78a7d1-d856-49df-8df5-2b6e6dcb5419" width="60%" />
@@ -37,7 +40,10 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 5.  Add members to your treasury and define their permissions (Requester, Admin, Approver).
     -   Refer to the [Roles & Permissions](https://docs.neartreasury.com/permissions) for a detailed explanation of each group.
-    -   Note: The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](https://docs.neartreasury.com/settings).
+
+:::info
+The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](https://docs.neartreasury.com/settings).
+:::
 
 <center>
 <img src="https://github.com/user-attachments/assets/a5027564-b7be-43e2-aff5-8706c86fca3b" width="60%" />
