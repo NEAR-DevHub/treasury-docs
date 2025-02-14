@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 sidebar_label: "Settings"
 title: Settings Overview
 description: Configure your NEAR Treasury dashboard.
@@ -7,65 +7,50 @@ description: Configure your NEAR Treasury dashboard.
 
 # Settings
 
-The Settings section allows you to configure various aspects of your NEAR Treasury dashboard.
+The Settings section allows Admins (see [Roles & Permissions](https://docs.neartreasury.com/permissions)) to configure various aspects of your NEAR Treasury dashboard.
 
 ![Settings](/img/screens/settings.png)
 
 ## Pending Requests
 
-When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request and cast your vote.
+When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request, but only users with the Admin role can vote to approve or reject. 
 
-## Managing Team Members
+## Members
 
-In the Members sub-section, you can:
+This section allows the Admin to manage the members of your treasury. The Admin can create a request to add new members, edit existing members’ roles, or remove members. These requests must be approved by Admins, based on the configured voting threshold. For a detailed explanation of the different roles and permission, refer to the Roles & Permissions page.
 
--   Add new members to the treasury by providing their NEAR wallet address and assigning permissions.
-    
--   Edit existing members' permissions.
-    
--   Remove members from the treasury.
+**To add members to your treasury:** 
 
-### Adding Team Members
-
-To add members to your treasury:
-
-1.  Go to the `Settings` page.
-    
-2.  Select the `Members` tab.
-    
-3.  Click the `Add Member` button.
-    
+1.  Go to the Settings page.
+2.  Select the Members tab.
+3.  Click the \+ New Member button.
 4.  Enter the NEAR wallet address of the new member.
-    
-5.  Choose the member's permission level (create requests, manage members, or vote).
-    
+5.  Choose the member's role(s)Requestor, Approver, or Admin.  You can select multiple roles for a member. See Roles & Permissions for a detailed explanation of each role.
+6.  Click the Save button and confirm the transactions.
+7.  Go to the Requests page to approve this request.
 
-## Configuring Voting Thresholds
+## Voting Thresholds
 
-The Voting Thresholds sub-section allows you to determine the number of votes required for different types of requests. You can set thresholds based on a fixed number of votes or a percentage of team members.
+The Voting Thresholds section allows Admins to configure the voting policies for treasury transaction requests and treasury configuration requests.
 
-### Setting Voting Thresholds
+**To set the voting thresholds:**
 
-To set permissions and voting thresholds:
+1.  Go to the Settings page.
+2.  Select the Voting Thresholds tab.
+3.  Select permission group you want to apply the voting threshold to:
+    -   Admin: For requests related to change in treasury settings (e.g. managing members, assigning roles, changing voting thresholds, or customizing dashboard appearance).
+    -   Approver: For requests related to treasury transactions (e.g. payments, staking, asset exchange).
+4.  Under Voting Policy, select how you want to base the number of votes required for a request to be approved:
+    -   Number of votes: A fixed number of votes is required for a decision to pass, regardless of the total number of members. For example, if you select 2 and there are 5 total members, 2 members must vote to pass the request.
+    -   Percentage of members: A percentage of total members is required for a decision to pass. For example, if you select 50% and there are 3 total members, 2 members must vote to pass the request.
+5.  Review the eligible members from the role required to approve this type of request.. If you need to change members, go to the Members page to add or remove people from that role.
+6.  Click the Submit Request button and confirm the transactions.
+7.  Go to the Requests page to approve this request.
 
-1.  Go to the `Settings` page.
-    
-2.  Select the `Voting Thresholds` tab.
-    
-3.  Choose the permission level you want to configure.
-    
-4.  Set the required number of votes or percentage needed for approval.
-    
+## Voting Duration
 
-## Setting Voting Duration
+The Voting Duration section allows Admins to set the timeframe during which team members can vote on pending requests. If the voting threshold is met to reach a decision, the request will be approved or rejected based on the voting results. If the voting period ends and there are not enough votes to reach a decision, the request will expire.
 
-In the Voting Duration sub-section, you can specify the timeframe during which team members can vote on pending requests. After the voting period ends, the request is either approved or rejected based on the voting results.
+## Theme & logo
 
-## Customizing the Dashboard's Appearance
-
-The Theme and Logo sub-section lets you personalize the look of your dashboard. You can upload a custom logo and choose a primary color for the dashboard's theme.
-
-
-
-    
-
+The Theme & Logo section lets Admins personalize the look of your dashboard. You can upload a custom logo, choose a primary color, and set the theme to dark or light mode.
