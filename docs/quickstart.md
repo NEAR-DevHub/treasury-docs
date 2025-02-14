@@ -58,7 +58,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 8.  Congratulations! Your treasury is ready. You can access and manage your treasury using multiple gateways: Web4 (Recommended), Near Social, and Dev Near.
 
 <center>
-<img src="https://github.com/user-attachments/assets/f601ec73-ae96-49a9-b502-42e530c2a86bwidth="60%" />
+<img src="https://github.com/user-attachments/assets/f601ec73-ae96-49a9-b502-42e530c2a86b" width="60%" />
 </center>
 
 ## Next steps
