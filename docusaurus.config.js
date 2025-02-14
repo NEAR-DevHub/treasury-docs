@@ -47,7 +47,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: "https://github.com/NEAR-DevHub/treasury-docs/edit/main/",
+          //editUrl: "https://github.com/NEAR-DevHub/treasury-docs/edit/main/",
           routeBasePath: "/",
           breadcrumbs: false,
         },
