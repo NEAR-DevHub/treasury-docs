@@ -1,22 +1,23 @@
 ---
-sidebar_position: 10
+sidebar_position: 8
 title: Support
 description: Contact support
 ---
 import SupportContent from '@site/src/components/SupportContent';
 
-## Troubleshooting
+## Get in Touch
 
-While NEAR Treasury is designed to be user-friendly and reliable, issues can sometimes arise. Here are some common problems and solutions:
-
-- **_I'm having trouble approving a request_**: Ensure you have the necessary permissions and that the request is still pending. If the issue persists, check the voting duration settings.
-    
-- **_My transaction is not going through_**: Verify that you have sufficient funds and that the recipient's wallet address is correct. If the issue continues, check the status of the NEAR network.
-
-## Contact us
+We're here to help!
 
 <SupportContent />
 
-:::tip
-If you encounter a problem that's not listed here, please contact the [NEAR Treasury support team](https://neartreasury.com/contact-form) for assistance.
-:::
+If you're encountering a bug, please click on the chat icon in the bottom right corner and select "Report an issue."
+
+## Troubleshooting & Common Issues
+
+- **_I'm having trouble approving a request_**: Check permissions and that the request is still pending. If the issue persists, check the voting duration settings.
+- **_My transaction is not going through_**: Verify that you have sufficient funds and that the recipient's wallet address is correct. 
+
+## Additional Support
+
+You can also join our [Telegram channel](https://t.me/neartreasury) for quick support and community interaction.
