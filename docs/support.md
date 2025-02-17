@@ -20,4 +20,6 @@ If you're encountering a bug, please click on the chat icon in the bottom right 
 
 ## Additional Support
 
+:::tip Telegram support
 You can also join our [Telegram channel](https://t.me/neartreasury) for quick support and community interaction.
+:::
