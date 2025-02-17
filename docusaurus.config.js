@@ -47,12 +47,16 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: "https://github.com/NEAR-DevHub/treasury-docs/edit/main/",
+          //editUrl: "https://github.com/NEAR-DevHub/treasury-docs/edit/main/",
           routeBasePath: "/",
           breadcrumbs: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-TBKDQ5YQPH',
+          anonymizeIP: false,
         },
       }),
     ],
@@ -115,7 +119,7 @@ const config = {
           {
             label: "Contact us",
             position: "right",
-            to: "https://neartreasury.com/contact-form"
+            to: "https://support.neartreasury.com"
           },
           {
             href: 'https://github.com/NEAR-DevHub/treasury-docs',

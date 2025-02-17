@@ -5,11 +5,10 @@
 
  .heroCard {
   a {
-    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
     border: 1px solid var(--ifm-color-emphasis-200);
     transition: all var(--ifm-transition-fast) ease;
     transition-property: border, box-shadow;
-    background-color: transparent;
+    background-color: #e9f1f3;
     color: var(--ifm-link-color);
 
     &:hover {
@@ -17,18 +16,18 @@
       text-decoration: none;
     }
 
-    h4 {
+    h3 {
       --ifm-h4-font-size: 16px;
       --ifm-heading-font-weight: 500;
       --ifm-heading-line-height: 150%;
-      color: var(--ifm-card-title);
-      font-family: "Inter";
+      color: #191641;
+      font-family: "Aeonik";
       margin: 0;
     }
 
     p {
       --ifm-line-height-base: 170%;
-      color: var(--ifm-card-description);
+      color: #2a297a;
       margin: 0;
     }
   }

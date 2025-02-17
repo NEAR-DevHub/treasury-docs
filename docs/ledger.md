@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 sidebar_label: "Ledger"
 title: Using a Ledger device
 description: Using a ledger device to confirm your actions

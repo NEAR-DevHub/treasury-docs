@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 sidebar_label: Stake Delegation
 title: Stake Delegation
 description: Stake and unstake your treasury's tokens.
