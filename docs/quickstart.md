@@ -15,11 +15,11 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 ## Creating a new treasury
 
-1.  Visit [neartreasury.com](https://neartreasury.com) and click "Get Started."
+1.  Visit [neartreasury.com](https://neartreasury.com) and click <kbd>Get Started</kbd>.
 
 2.  If you are not signed in, sign in with your NEAR Account using your preferred wallet.
     -   We recommend using [Meteor Wallet](https://meteorwallet.app).
-    -   Ledger users can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
+    -   [Ledger users](ledger.md) can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
 3.  Confirm your wallet.
     -   This is the account that will be used to pay for creating the treasury and will be your initial administrator account.
 
@@ -28,7 +28,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 </center>
 
 4.  Enter a name for your treasury application (e.g., “myteam-treasury”).
-    -   In this step you are creating two accounts: NEAR Account and SputnikDAO account.
+    -   In this step, you are creating two accounts: a NEAR Account and a SputnikDAO account.
 
 :::tip
 We currently only support creating new SputnikDAO accounts. To import an existing account, [contact our team](https://docs.neartreasury.com/support).
@@ -38,7 +38,7 @@ We currently only support creating new SputnikDAO accounts. To import an existin
 <img src="https://github.com/user-attachments/assets/6b78a7d1-d856-49df-8df5-2b6e6dcb5419" width="60%" />
 </center>
 
-5.  Add members to your treasury and define their permissions (Requester, Admin, Approver).
+5.  Add members to your treasury and define their permissions (`Requester`, `Admin`, `Approver`).
     -   Refer to the [Roles & Permissions](https://docs.neartreasury.com/permissions) for a detailed explanation of each group.
 
 :::info
