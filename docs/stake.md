@@ -18,12 +18,14 @@ You can stake your treasury's tokens to earn rewards or unstake them to regain a
 To stake tokens:
     
 1.  Go to the `Staking` section.
+
+2.  Click the `Create Request` button and select `Stake`.
     
-2.  Select the token you want to stake.
+3.  Select the token you want to stake.
     
-3.  Choose the amount to stake and select a validator.
+4.  Choose the amount to stake and select a validator.
     
-4.  Submit the staking request for approval.
+5.  Submit the staking request for approval.
     
 
 ## Unstaking Tokens
@@ -31,13 +33,28 @@ To stake tokens:
 To unstake tokens:
 
 1.  Go to the `Staking` section.
+
+2.  Click the `Create Request` button and select `Unstake`.
     
-2.  Select the staked tokens you want to unstake.
+3.  Select the staked tokens you want to unstake.
     
-3.  Submit the unstaking request for approval.
+4.  Submit the unstaking request for approval.
     
-4.  Once approved, you may need to initiate a withdrawal to access the unstaked funds.
+5.  Once approved, you may need to [initiate a withdrawal](#withdrawal-requests) to access the unstaked funds.
     
+## Withdrawal Requests
+
+In some cases, you may need to create a withdrawal request to move funds out of your treasury. This can be necessary for unstaked tokens or other scenarios. To create a withdrawal request:
+
+1.  Go to the `Staking` section.
+
+2.  Click the `Create Request` button and select `Withdraw`.
+
+3.  Submit the withdrawal request for approval.
+
+:::note
+By submitting, you request to withdraw all available funds. A separate withdrawal request will be created for each validator.
+:::
 
 ## Managing Lockup Accounts
 
@@ -55,8 +72,3 @@ To exchange one type of cryptocurrency for another:
     
 4.  Submit the exchange request for approval.
     
-
-## Withdrawal Requests
-
-In some cases, you may need to create a withdrawal request to move funds out of your treasury. This can be necessary for unstaked tokens or other scenarios. The process for creating a withdrawal request is similar to creating a payment request.
-
