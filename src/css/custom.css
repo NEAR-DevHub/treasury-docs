@@ -147,3 +147,11 @@ h2, h3 {
   font-family: "Aeonik";
   font-weight: 400;
 }
+
+.screenshot img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}

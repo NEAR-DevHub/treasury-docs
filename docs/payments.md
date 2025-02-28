@@ -10,7 +10,18 @@ keywords: [NEAR Treasury, Payments]
 
 This section covers the core features for managing your treasury's funds.
 
+<div class="screenshot">
+
 ![Payments](/img/screens/payments.png)
+
+</div>
+
+**Available actions:**
+
+- [Creating Payment Requests](#creating-payment-requests)
+- [Approving or Rejecting Payment Requests](#approving-or-rejecting-payment-requests)
+
+---
 
 ## Creating Payment Requests
 
@@ -23,7 +34,11 @@ To create a new payment request:
 3.  Fill in the required details, such as the recipient's wallet address, the amount to send, and any relevant notes.
     
 4.  Submit the request for approval.
-    
+
+<div class="screenshot">
+<img src="/img/payments/create.png" width="40%" alt="Create payment request" />
+</div>
+
 
 ## Approving or Rejecting Payment Requests
 
@@ -36,4 +51,9 @@ Payment requests require approval from authorized team members. To review and vo
 3.  Review the details of each request.
     
 4.  Cast your vote to approve or reject the request.
-    
+
+<div class="screenshot">
+
+![Requests](/img/payments/approve.png)
+
+</div>

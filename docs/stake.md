@@ -11,7 +11,20 @@ import TabItem from '@theme/TabItem';
 
 You can stake your treasury's tokens to earn rewards or unstake them to regain access to the funds.
 
+<div class="screenshot">
+
 ![Stake Delegation](/img/screens/stake.png)
+
+</div>
+
+**Available actions:**
+
+- [Staking Tokens](#staking-tokens)
+- [Unstaking Tokens](#unstaking-tokens)
+- [Withdrawal Requests](#withdrawal-requests)
+- [Approving or Rejecting Staking Requests](#approving-or-rejecting-staking-requests)
+
+---
 
 ## Staking Tokens
 
@@ -28,6 +41,10 @@ To stake tokens:
 5.  Submit the staking request for approval.
     
 
+<div class="screenshot">
+<img src="/img/stake/stake.png" width="40%" alt="Create stake request" />
+</div>
+
 ## Unstaking Tokens
 
 To unstake tokens:
@@ -41,7 +58,11 @@ To unstake tokens:
 4.  Submit the unstaking request for approval.
     
 5.  Once approved, you may need to [initiate a withdrawal](#withdrawal-requests) to access the unstaked funds.
-    
+
+<div class="screenshot">
+<img src="/img/stake/unstake.png" width="40%" alt="Create unstake request" />
+</div>
+
 ## Withdrawal Requests
 
 In some cases, you may need to create a withdrawal request to move funds out of your treasury. This can be necessary for unstaked tokens or other scenarios. To create a withdrawal request:
@@ -52,14 +73,38 @@ In some cases, you may need to create a withdrawal request to move funds out of 
 
 3.  Submit the withdrawal request for approval.
 
-:::note
-By submitting, you request to withdraw all available funds. A separate withdrawal request will be created for each validator.
+:::info
+By submitting a Withdrawal, you request to withdraw all available funds. A separate withdrawal request will be created for each validator.
 :::
+
+<div class="screenshot">
+<img src="/img/stake/withdraw.png" width="40%" alt="Create withdraw request" />
+</div>
+
+
+## Approving or Rejecting Staking Requests
+
+Stake actions require approval from authorized team members. To review and vote on pending requests:
+
+1.  Go to the `Stake Delegation` section.
+    
+2.  View the list of pending requests.
+    
+3.  Review the details of each request.
+    
+4.  Cast your vote to approve or reject the request.
+
+<div class="screenshot">
+
+![Requests](/img/stake/approve.png)
+
+</div>
 
 ## Managing Lockup Accounts
 
 If your treasury has any funds in lockup accounts, you can monitor and manage them in the `Lockups` section. This includes viewing the lockup period, checking the balance, and initiating withdrawals when funds are released.
 
+<!--
 ## Asset Exchange
 
 To exchange one type of cryptocurrency for another:
@@ -71,4 +116,4 @@ To exchange one type of cryptocurrency for another:
 3.  Input the desired amounts.
     
 4.  Submit the exchange request for approval.
-    
+-->
