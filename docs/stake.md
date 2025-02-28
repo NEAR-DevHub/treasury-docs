@@ -60,6 +60,7 @@ By submitting, you request to withdraw all available funds. A separate withdrawa
 
 If your treasury has any funds in lockup accounts, you can monitor and manage them in the `Lockups` section. This includes viewing the lockup period, checking the balance, and initiating withdrawals when funds are released.
 
+<!--
 ## Asset Exchange
 
 To exchange one type of cryptocurrency for another:
@@ -71,4 +72,4 @@ To exchange one type of cryptocurrency for another:
 3.  Input the desired amounts.
     
 4.  Submit the exchange request for approval.
-    
+-->
