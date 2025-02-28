@@ -9,7 +9,11 @@ description: A centralized overview of your treasury's finances.
 
 The NEAR Treasury dashboard provides a centralized overview of your treasury's finances. Here's what you'll find and how to navigate it:
 
+<div class="screenshot">
+
 ![Dashboard](/img/screens/dashboard.png)
+
+</div>
 
 -   **Total Balance:** At the top of the dashboard, you'll see a clear display of your treasury's total value across all supported tokens. This gives you an immediate snapshot of your overall financial health.
     

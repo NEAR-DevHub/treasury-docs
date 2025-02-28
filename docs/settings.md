@@ -9,11 +9,15 @@ description: Configure your NEAR Treasury dashboard.
 
 The Settings section allows Admins (see [Roles & Permissions](https://docs.neartreasury.com/permissions)) to configure various aspects of your NEAR Treasury dashboard.
 
+<div class="screenshot">
+
 ![Settings](/img/screens/settings.png)
+
+</div>
 
 ## Pending Requests
 
-When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request, but only users with the Admin role can vote to approve or reject. 
+When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request, but only users with the Admin role can vote to approve or reject.
 
 ## Members
 

@@ -11,7 +11,11 @@ import TabItem from '@theme/TabItem';
 
 You can stake your treasury's tokens to earn rewards or unstake them to regain access to the funds.
 
+<div class="screenshot">
+
 ![Stake Delegation](/img/screens/stake.png)
+
+</div>
 
 **Available actions:**
 
@@ -37,9 +41,9 @@ To stake tokens:
 5.  Submit the staking request for approval.
     
 
-<center>
+<div class="screenshot">
 <img src="/img/stake/stake.png" width="40%" alt="Create stake request" />
-</center>
+</div>
 
 ## Unstaking Tokens
 
@@ -55,9 +59,9 @@ To unstake tokens:
     
 5.  Once approved, you may need to [initiate a withdrawal](#withdrawal-requests) to access the unstaked funds.
 
-<center>
+<div class="screenshot">
 <img src="/img/stake/unstake.png" width="40%" alt="Create unstake request" />
-</center>
+</div>
 
 ## Withdrawal Requests
 
@@ -73,9 +77,9 @@ In some cases, you may need to create a withdrawal request to move funds out of 
 By submitting a Withdrawal, you request to withdraw all available funds. A separate withdrawal request will be created for each validator.
 :::
 
-<center>
+<div class="screenshot">
 <img src="/img/stake/withdraw.png" width="40%" alt="Create withdraw request" />
-</center>
+</div>
 
 
 ## Approving or Rejecting Staking Requests
@@ -89,9 +93,12 @@ Stake actions require approval from authorized team members. To review and vote 
 3.  Review the details of each request.
     
 4.  Cast your vote to approve or reject the request.
-    
+
+<div class="screenshot">
+
 ![Requests](/img/stake/approve.png)
 
+</div>
 
 ## Managing Lockup Accounts
 
