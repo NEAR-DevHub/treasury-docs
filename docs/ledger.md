@@ -23,7 +23,11 @@ When connecting a wallet, you may choose to use a ledger device directly. While 
 
 To establish a direct connection from the web4 page of your treasury ( `https://<your-treasury-instance-name>.near.page` ), click the "Connect Wallet" button, and choose Ledger.
 
-![alt text](/img/screens/wallet-selector-ledger.png)
+<div class="screenshot">
+
+![Ledger wallet selector](/img/screens/wallet-selector-ledger.png)
+
+</div>
 
 Make sure your ledger device is connected, and that you have opened the NEAR app. Follow the instructions on screen to get you through the process for connecting it to the treasury application. Once connected you are ready to confirm every action through your ledger device. Every time you click confirm on the transaction modal screen, your ledger device will prompt you to confirm the transaction.
 
