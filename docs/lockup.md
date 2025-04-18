@@ -1,21 +1,23 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 sidebar_label: Lockup
 title: Lockup
-description: Stake and unstake your treasury's tokens.
+description: Manage separate lockups using your treasury's tokens.
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## Overview
 
-You can stake your treasury's tokens to earn rewards or unstake them to regain access to the funds.
+The Lockup section allows you to create and manage separate lockups for other recipients using your treasury funds.
 
 <div class="screenshot">
 
 ![Lockup](/img/screens/lockup.png)
 
 </div>
+
+Here you can view pending lockup requests, their history, and create new requests.
 
 **Available actions:**
 
@@ -26,7 +28,7 @@ You can stake your treasury's tokens to earn rewards or unstake them to regain a
 
 ## Lockup Tokens
 
-To stake tokens:
+To create a new lockup using your treasury's tokens:
     
 1.  Go to the `Lockup` section.
 

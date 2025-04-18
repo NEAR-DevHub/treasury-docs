@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 sidebar_label: "Settings"
 title: Settings Overview
 description: Configure your NEAR Treasury dashboard.
