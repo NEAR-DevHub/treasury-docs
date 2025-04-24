@@ -20,6 +20,7 @@ This section covers the core features for managing your treasury's funds.
 
 - [Creating Payment Requests](#creating-payment-requests)
 - [Approving or Rejecting Payment Requests](#approving-or-rejecting-payment-requests)
+- [View Payment Details](#view-payment-details)
 
 ---
 
@@ -57,3 +58,16 @@ Payment requests require approval from authorized team members. To review and vo
 ![Requests](/img/payments/approve.png)
 
 </div>
+
+## View Payment Details
+
+You can view payment details by clicking on any item under the `Pending Requests` or `History` list.
+
+:::tip
+When opening the detail window, you can also copy a direct link to the payment detail page.
+:::
+
+<div class="screenshot">
+<img src="/img/payments/view.png" width="40%" alt="View payment details" />
+</div>
+
