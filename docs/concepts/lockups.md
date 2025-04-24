@@ -70,8 +70,6 @@ One of the unique features of the NEAR lockups is the ability to delegate tokens
 There are a few things you need to know:
 
 1. You can only delegate to whitelisted pools, right now it's all the pools that end with `.poolv1.near`.
-2. One lockup contract can only delegate to a single pool.&#x20;
-3. The account must keep a minimum balance of `3.5 $NEAR` to cover storage for the lockup contract itself (transactions that will try to withdraw over that amount will just fail).&#x20;
-4. Delegation rewards can be withdrawn back to the lockup contract but are unlocked, so they can be withdrawn from it right away.&#x20;
-5. Delegating commands/tools which are not specifically configured to work with locked-up accounts won't work, as the "owner account" must call a lockup contract.
-
+2. A Lockup contract can delegate to one pool at a time. If you want to delegate to another pool, you must withdraw all, and then delegate to a different pool.
+3. The account must keep a minimum balance of `3.5 $NEAR` to cover storage for the lockup contract itself (transactions that will try to withdraw over that amount will just fail).
+4. Delegation rewards can be withdrawn back to the lockup contract but are unlocked, so they can be withdrawn from it right away.
