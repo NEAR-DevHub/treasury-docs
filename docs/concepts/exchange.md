@@ -5,13 +5,13 @@ title: Asset Exchange Backend
 description: Using a ledger device to confirm your actions
 ---
 
-Near Treasury uses [RHEA Finance](#about-rhea-finance) as the backend provider for all [asset exchange](../assets.md) features available to Treasury users.
+Near Treasury utilizes the [Rhea Finance SDK](#about-rhea-finance), which enables token swaps through its [Smart Routing](#rhea-auto-router) feature.
 
 In this article you'll find additional information about RHEA and the [Auto Router algorithm](#rhea-auto-router) used to get better prices, and better liquidity utilization compared to regular exchanges.
 
 ## About RHEA Finance
 
-[RHEA Finance](https://rhea.finance/) is an automated liquidity protocol implemented on the [NEAR blockchain](https://near.org).
+[RHEA Finance](https://rhea.finance/) is a community-led, multi-purpose DeFi platform built on the [NEAR Protocol](https://near.org) blockchain.
 
 The platform is fully permissionless and removes the need for trusted intermediaries, prioritizing decentralization and censorship resistance. Anyone can trade or become a liquidity provider for a pool by depositing an equivalent value of each underlying token in return for pool tokens.
 These tokens track pro-rata LP shares of the total reserves, and can be redeemed for the underlying assets at any time.
