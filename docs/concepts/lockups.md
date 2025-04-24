@@ -17,7 +17,9 @@ The most common configuration of lockup is to linearly release the tokens for tr
 ### Smart contract
 
 A Lockup is a special smart contract that ensures that the full, or the partial amount of tokens is not transferable until it is supposed to be.
+
 The lockups are implemented as a separate smart contract from your main account.
+The lockup contract is deployed on a separate account using the hash of the user account as the `account-id`. This means that a user account (e.g., `myusername.near`) can only have one lockup at a time.
 
 :::tip
  Have a look at the [Lockup page](https://github.com/near/core-contracts/tree/master/lockup) in the NEAR GitHub repository for a deeper dive into Lockups.
