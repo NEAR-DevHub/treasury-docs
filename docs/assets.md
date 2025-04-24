@@ -11,6 +11,10 @@ import TabItem from '@theme/TabItem';
 
 You can exchange your treasury's tokens to other supported assets and tokens, based on available swap providers.
 
+:::tip
+Near Treasury uses [RHEA Finance](concepts/exchange.md) for all asset exchange features. Learn more about it in [this article](concepts/exchange.md).
+:::
+
 <div class="screenshot">
 
 ![Asset Exchange](/img/screens/asset-ex.png)
