@@ -40,10 +40,16 @@ To exchange one type of cryptocurrency for another:
     
 4.  Submit the exchange request for approval.
 
-:::info Price slippage
-Exchange rates may fluctuate during the approval process for your asset exchange request.
+:::info Exchange considerations
 
-Setting a price slippage limit helps protect against unexpected changes. If the actual exchange rate exceeds your specified limit at the time of voting, the request will fail.
+- **Price slippage:** Exchange rates may fluctuate during the approval process for your asset exchange request.
+  Setting a price slippage limit helps protect against unexpected changes. If the actual exchange rate exceeds your specified limit at the time of voting, the request will fail.
+
+- **Price Deference:** The difference between the market price and the price you get.
+
+- **Pool fee:** Fee collected by [RHEA Finance](concepts/exchange.md) and shared with liquidity providers as a reward for providing liquidity to the pool.
+
+- **Additional Storage Purchase:** To collect a new token, you need to purchase storage space. After submission, 0.1 NEAR will be charged from your account as an additional transaction.
 :::
 
 <div class="screenshot">
