@@ -59,7 +59,7 @@ Vesting is an additional mechanism. It also locks the tokens, and it allows to c
 
 ### Vesting Termination
 
-Vesting can be terminated by the `foundation` (an account configured at the moment of initializing the contract). It's important to understand how the termination works combining with the lockup schedule.
+Vesting can be terminated by the same account that created the lockup. It's important to understand how the termination works combining with the lockup schedule.
 
 ![Lockup vesting](@site/static/img/lockup/lockup-term.png)
 
