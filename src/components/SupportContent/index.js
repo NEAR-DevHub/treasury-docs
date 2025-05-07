@@ -25,6 +25,10 @@ export default function SupportContent() {
     Gleap.openFeatureRequests(false);
   };
 
+  const runGleapBugReport = () => {
+    Gleap.startClassicForm("bugreporting");
+  };
+
   return (
     <div className="container">
       <section className="row">
@@ -39,6 +43,12 @@ export default function SupportContent() {
           title="Request a feature"
           description="What would you like to see?"
           to={runGleapFeatureRequests}
+        />
+        <Card
+          Svg={require('@site/static/img/bugcol.svg').default}
+          title="Report an issue"
+          description="Found a bug? Let us know."
+          to={runGleapBugReport}
         />
       </section>
     </div>
