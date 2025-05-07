@@ -103,17 +103,3 @@ Stake actions require approval from authorized team members. To review and vote 
 ## Managing Lockup Accounts
 
 If your treasury has any funds in lockup accounts, you can monitor and manage them in the `Lockups` section. This includes viewing the lockup period, checking the balance, and initiating withdrawals when funds are released.
-
-<!--
-## Asset Exchange
-
-To exchange one type of cryptocurrency for another:
-
-1.  Go to the `Asset Exchange` section.
-    
-2.  Select the tokens you want to exchange.
-    
-3.  Input the desired amounts.
-    
-4.  Submit the exchange request for approval.
--->
