@@ -2,7 +2,7 @@
 sidebar_position: 7
 sidebar_label: "Exchange Backend"
 title: Asset Exchange Backend
-description: Using a ledger device to confirm your actions
+description: Additional information about RHEA and the Auto Router algorithm.
 ---
 
 Near Treasury utilizes the [Rhea Finance SDK](#about-rhea-finance), which enables token swaps through its [Smart Routing](#rhea-auto-router) feature.
