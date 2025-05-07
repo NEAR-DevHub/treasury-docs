@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 10
 title: Support
 description: Contact support
 ---
@@ -16,7 +16,7 @@ If you're encountering a bug, please click on the chat icon in the bottom right 
 ## Troubleshooting & Common Issues
 
 - **_I'm having trouble approving a request_**: Check permissions and that the request is still pending. If the issue persists, check the voting duration settings.
-- **_My transaction is not going through_**: Verify that you have sufficient funds and that the recipient's wallet address is correct. 
+- **_My transaction is not going through_**: Verify that you have sufficient funds and that the recipient's wallet address is correct.
 
 ## Additional Support
 
