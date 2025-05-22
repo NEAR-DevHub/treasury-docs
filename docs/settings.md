@@ -1,11 +1,11 @@
 ---
 sidebar_position: 7
 sidebar_label: "Settings"
-title: Settings Overview
+title: Settings
 description: Configure your NEAR Treasury dashboard.
 ---
 
-# Settings
+## Overview
 
 The Settings section allows Admins (see [Roles & Permissions](https://docs.neartreasury.com/permissions)) to configure various aspects of your NEAR Treasury dashboard.
 
@@ -89,3 +89,12 @@ The `Theme & Logo` section lets Admins personalize the look of your dashboard. Y
 <img src="/img/settings/theme.png" width="70%" alt="theme logo" />
 </div>
 
+## System updates
+
+.
+
+<div class="screenshot">
+
+![System updates](/img/settings/updates.png)
+
+</div>
