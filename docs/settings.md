@@ -81,6 +81,11 @@ The Voting Duration section allows Admins to set the timeframe during which team
 <img src="/img/settings/duration.png" width="70%" alt="voting duration" />
 </div>
 
-## Theme & logo
+## Theme & Logo
 
 The `Theme & Logo` section lets Admins personalize the look of your dashboard. You can upload a custom logo, choose a primary color, and set the theme to dark or light mode.
+
+<div class="screenshot">
+<img src="/img/settings/theme.png" width="70%" alt="theme logo" />
+</div>
+
