@@ -2,7 +2,7 @@
 sidebar_position: 9
 sidebar_label: "System Updates"
 title: About System Updates
-description: Using a ledger device to confirm your actions
+description: Update Treasury functionality including contract, policy, and app widget.
 ---
 
 ## About updates
