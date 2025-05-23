@@ -7,7 +7,7 @@ description: Update Treasury functionality including contract, policy, and app w
 
 ## About updates
 
-The [system update](../settings.md#system-updates) functionality allows Treasury developers to provide updates such as contract upgrades, policy changes, or instance app widget changes to treasury instances.
+The [system update](../settings.md#system-updates) allows Treasury developers to share important updates with treasury instances. These updates can relate to contract or frontend UI (e.g., Sputnik contract upgrades, DAO policy updates, or new UI features).
 These available updates can be reviewed, approved, and applied manually by treasury administrators.
 
 ## Update Types
