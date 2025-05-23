@@ -91,10 +91,14 @@ The `Theme & Logo` section lets Admins personalize the look of your dashboard. Y
 
 ## System updates
 
-The `System update` section allows Admins to review, approve, and apply available updates to their treasury instance.
+The `System update` section allows Admins to review, approve, and apply pending updates to their treasury instance.
 Updates such as contract upgrades, policy changes, or instance app widget changes are pushed by NEAR Treasury developers to provide new features, fix bugs, and improve the user experience.
 
-### Approving or Rejecting System Updates
+:::tip
+Visit [this page](concepts/sys-update.md) to learn more about the different [Update Types](concepts/sys-update.md#update-types) and how the system update works.
+:::
+
+### Reviewing System Updates
 
 All updates must be manually approved or rejected by treasury administrators.
 To review and vote on pending updates:
@@ -102,10 +106,14 @@ To review and vote on pending updates:
 1. Go to the `System updates` section.
 2. View the list of pending updates.
 3. Review the details of each update.
-4. Approve or reject the pending request.
+4. Approve or reject the pending update request.
 
 <div class="screenshot">
 
 ![System updates](/img/settings/updates.png)
 
 </div>
+
+:::info Policy updates
+After an Administrator accepts a system [policy update](concepts/sys-update.md#update-types), you will see a new request under [`Pending requests`](#pending-requests), and Treasury users will need to vote on it.
+:::
