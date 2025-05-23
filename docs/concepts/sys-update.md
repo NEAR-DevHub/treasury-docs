@@ -37,7 +37,7 @@ When an update is available and has not been marked as finished in your browser,
 
 </div>
 
-If you visit the updates page and the system detects that your instance is already up to date (for example, the contract or widget has already been upgraded), the update will disappear from the list and the banner will be removed.
+If you visit the updates page and the system detects that your instance is already up to date (for example, the contract or widget has already been upgraded), the update will disappear from the list and the banner will be moved to the `History` tab.
 
 :::info Why Updates May Disappear?
 
