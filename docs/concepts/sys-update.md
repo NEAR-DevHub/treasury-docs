@@ -29,7 +29,7 @@ When a system update is published, treasury administrators may see a notificatio
 
 ### Banner Notifications
 
-When an update is available and has not been marked as finished in your browser, a banner or notification will appear:
+When an update is available (and it has not been previously closed or marked as finished in your browser), a banner or notification will appear:
 
 <div class="screenshot">
 
