@@ -36,7 +36,7 @@ The NEAR Treasury dashboard provides a centralized overview of your treasury's f
 If your treasury has a lockup account, this section displays the balance of tokens held within the lockup contracts. You'll be able to see details about the lockup period and any staking activity associated with those funds.
 
 :::info
-The Treasury **Lockup** account shown in the Dashboard is not related with the [Lockup section](lockup.md), where you can create new Lockups using your treasury funds for your own recipients, based on your custom dates and rules.
+The Treasury **Lockup** account shown in the Dashboard is not related to the [Lockup section](lockup.md), where you can create new Lockups using your treasury funds for your own recipients, based on your custom dates and rules.
 :::
 
 <div class="screenshot">
