@@ -31,15 +31,10 @@ Here you can view pending lockup requests, their history, and create new request
 To create a new lockup using your treasury's tokens:
     
 1.  Go to the `Lockup` section.
-
 2.  Click the `Create Request` button.
-    
 3.  Select the recipient for your lockup tokens.
-    
 4.  Choose the amount to lockup and select start and end dates.
-    
 5.  Submit the lockup request for approval.
-    
 
 <div class="screenshot">
 <img src="/img/lockup/create.png" width="40%" alt="Create lockup request" />
