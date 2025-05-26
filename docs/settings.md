@@ -1,11 +1,11 @@
 ---
 sidebar_position: 7
 sidebar_label: "Settings"
-title: Settings Overview
+title: Settings
 description: Configure your NEAR Treasury dashboard.
 ---
 
-# Settings
+## Overview
 
 The Settings section allows Admins (see [Roles & Permissions](https://docs.neartreasury.com/permissions)) to configure various aspects of your NEAR Treasury dashboard.
 
@@ -81,6 +81,39 @@ The Voting Duration section allows Admins to set the timeframe during which team
 <img src="/img/settings/duration.png" width="70%" alt="voting duration" />
 </div>
 
-## Theme & logo
+## Theme & Logo
 
 The `Theme & Logo` section lets Admins personalize the look of your dashboard. You can upload a custom logo, choose a primary color, and set the theme to dark or light mode.
+
+<div class="screenshot">
+<img src="/img/settings/theme.png" width="70%" alt="theme logo" />
+</div>
+
+## System updates
+
+The `System update` section allows Admins to review, approve, and apply pending updates to their treasury instance.
+Updates such as contract upgrades, policy changes, or instance app widget changes are pushed by NEAR Treasury developers to provide new features, fix bugs, and improve the user experience.
+
+:::tip
+Visit [this page](concepts/sys-update.md) to learn more about the different [Update Types](concepts/sys-update.md#update-types) and how the system update works.
+:::
+
+### Reviewing System Updates
+
+All updates must be manually approved or rejected by treasury administrators.
+To review and vote on pending updates:
+
+1. Go to the `System updates` section.
+2. View the list of pending updates.
+3. Review the details of each update.
+4. Approve or reject the pending update request.
+
+<div class="screenshot">
+
+![System updates](/img/settings/updates.png)
+
+</div>
+
+:::info Policy updates
+After an Administrator accepts a system [policy update](concepts/sys-update.md#update-types), you will see a new request under [`Pending requests`](#pending-requests), and Treasury users will need to vote on it.
+:::
