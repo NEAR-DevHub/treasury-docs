@@ -89,10 +89,10 @@ The `Theme & Logo` section lets Admins personalize the look of your dashboard. Y
 <img src="/img/settings/theme.png" width="70%" alt="theme logo" />
 </div>
 
-## System updates
+## System Updates
 
-The `System update` section allows Admins to review, approve, and apply pending updates to their treasury instance.
-Updates such as contract upgrades, policy changes, or instance app widget changes are pushed by NEAR Treasury developers to provide new features, fix bugs, and improve the user experience.
+The `System Update` section allows Admins to review, approve, and apply pending updates to their treasury instance.
+NEAR Treasury developers push updates such as contract upgrades, policy changes, or instance app widget changes to provide new features, fix bugs, and improve the user experience.
 
 :::tip
 Visit [this page](concepts/sys-update.md) to learn more about the different [Update Types](concepts/sys-update.md#update-types) and how the system update works.
