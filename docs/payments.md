@@ -21,6 +21,7 @@ This section covers the core features for managing your treasury's funds.
 - [Creating Payment Requests](#creating-payment-requests)
 - [Approving or Rejecting Payment Requests](#approving-or-rejecting-payment-requests)
 - [View Payment Details](#view-payment-details)
+- [Exporting Payment History](#exporting-payment-history)
 
 ---
 
@@ -71,3 +72,19 @@ When opening the detail window, you can also copy a direct link to the payment d
 <img src="/img/payments/view.png" width="40%" alt="View payment details" />
 </div>
 
+## Exporting Payment History
+
+To export the payment history to `.csv`:
+
+1.  Navigate to the `Payments` section.
+    
+2.  Switch to the `History` tab.
+    
+3.  Click the `Export as CSV` button.
+
+
+<div class="screenshot">
+
+![Export](/img/payments/csv-export.png)
+
+</div>

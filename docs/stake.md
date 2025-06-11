@@ -23,6 +23,7 @@ You can stake your treasury's tokens to earn rewards or unstake them to regain a
 - [Unstaking Tokens](#unstaking-tokens)
 - [Withdrawal Requests](#withdrawal-requests)
 - [Approving or Rejecting Staking Requests](#approving-or-rejecting-staking-requests)
+- [Exporting Stake Delegation History](#exporting-stake-delegation-history)
 
 ---
 
@@ -103,3 +104,20 @@ Stake actions require approval from authorized team members. To review and vote 
 ## Managing Lockup Accounts
 
 If your treasury has any funds in lockup accounts, you can monitor and manage them in the `Lockups` section. This includes viewing the lockup period, checking the balance, and initiating withdrawals when funds are released.
+
+## Exporting Stake Delegation History
+
+To export the stake delegation history to `.csv`:
+
+1.  Navigate to the `Stake Delegation` section.
+    
+2.  Switch to the `History` tab.
+    
+3.  Click the `Export as CSV` button.
+
+
+<div class="screenshot">
+
+![Export](/img/stake/csv-export.png)
+
+</div>
