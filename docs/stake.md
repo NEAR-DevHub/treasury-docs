@@ -107,7 +107,7 @@ If your treasury has any funds in lockup accounts, you can monitor and manage th
 
 ## Exporting Stake Delegation History
 
-To export the stake delegation history to `.csv`:
+To export the stake delegation history to a `.csv` file:
 
 1.  Navigate to the `Stake Delegation` section.
     

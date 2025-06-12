@@ -62,7 +62,7 @@ Lockup actions require approval from authorized team members. To review and vote
 
 ## Exporting Lockup History
 
-To export the lockup history to `.csv`:
+To export the lockup history to a `.csv` file:
 
 1.  Navigate to the `Lockup` section.
     

@@ -78,7 +78,7 @@ Asset exchange actions require approval from authorized team members. To review 
 
 ## Exporting Asset Exchange History
 
-To export the asset exchange history to `.csv`:
+To export the asset exchange history to a `.csv` file:
 
 1.  Navigate to the `Asset Exchange` section.
     

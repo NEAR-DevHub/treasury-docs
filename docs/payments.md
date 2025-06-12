@@ -74,7 +74,7 @@ When opening the detail window, you can also copy a direct link to the payment d
 
 ## Exporting Payment History
 
-To export the payment history to `.csv`:
+To export the payment history to a `.csv` file:
 
 1.  Navigate to the `Payments` section.
     
