@@ -23,7 +23,7 @@ Here you can view pending lockup requests, their history, and create new request
 
 - [Lockup Tokens](#lockup-tokens)
 - [Approving or Rejecting Lockup Requests](#approving-or-rejecting-lockup-requests)
-- [Exporting Lockup History](#exporting-lockup-history)
+- [Exporting Lockup Transactions](#exporting-lockup-transactions)
 
 ---
 
@@ -60,9 +60,9 @@ Lockup actions require approval from authorized team members. To review and vote
 
 </div>
 
-## Exporting Lockup History
+## Exporting Lockup Transactions
 
-To export the lockup history to a `.csv` file:
+To export lockup transaction records to a `.csv` file:
 
 1.  Navigate to the `Lockup` section.
     

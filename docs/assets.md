@@ -21,7 +21,7 @@ You can exchange your treasury's tokens to other supported assets and tokens, ba
 
 - [Creating Asset Exchange Requests](#creating-asset-exchange-requests)
 - [Approving or Rejecting Exchange Requests](#approving-or-rejecting-exchange-requests)
-- [Exporting Asset Exchange History](#exporting-asset-exchange-history)
+- [Exporting Asset Exchange Transactions](#exporting-asset-exchange-transactions)
 
 :::tip
 Near Treasury utilizes the [Rhea Finance SDK](concepts/exchange.md), which enables token swaps through its [Smart Routing](concepts/exchange.md#rhea-auto-router) feature. Learn more about it in [this article](concepts/exchange.md).
@@ -76,9 +76,9 @@ Asset exchange actions require approval from authorized team members. To review 
 
 </div>
 
-## Exporting Asset Exchange History
+## Exporting Asset Exchange Transactions
 
-To export the asset exchange history to a `.csv` file:
+To export asset exchange transaction records to a `.csv` file:
 
 1.  Navigate to the `Asset Exchange` section.
     
