@@ -6,9 +6,7 @@ description: A Guide to Importing Bulk Payment Requests.
 
 ## Overview
 
-A Guide to Importing Bulk Payment Requests using the Official Template (Google Sheet or Excel)
-
-The Bulk Import feature in NEAR Treasury allows you to efficiently create multiple payment requests at once. Simply use our official template (accessible as a Google Sheet), enter your payment data, copy relevant cells (including headers), and paste it into the payment creation flow. This guide will walk you through the process:
+The Bulk Import feature in NEAR Treasury allows you to efficiently create multiple payment requests at once. Simply use our [official template](#accessing-template) (accessible as a Google Sheet), enter your payment data, copy relevant cells (including headers), and paste it into the payment creation flow. This guide will walk you through the process:
 
 ## Step 1: Complete the Bulk Payment Template
 
@@ -16,15 +14,15 @@ To ensure your data is formatted correctly for import, always start with the off
 
 ### Accessing Template
 
-Click here to open the Bulk Payment CSV Template
-
-  
+:::tip
+[Click here to open the Bulk Payment CSV Template](#).
+:::
 
 When the Google Sheet opens, you have two options for editing:
 
--   Option A: Make your own copy by going to File > Make a copy in the Google Sheets menu. Save this copy to your own Google Drive and enter your data there.
+- **Option A:** Make your own copy by going to `File` > `Make a copy` in the Google Sheets menu. Save this copy to your own Google Drive and enter your data there.
     
--   Option B: Download the template as an Excel file by going to File > Download > Microsoft Excel (.xlsx). Save this file to your computer and enter your data using Microsoft Excel or another spreadsheet program.
+- **Option B:** Download the template as an Excel file by going to `File` > `Download` > `Microsoft Excel (.xlsx)`. Save this file to your computer and enter your data using Microsoft Excel or another spreadsheet program.
     
 
 ### How to Fill in the Template
@@ -60,48 +58,40 @@ For commonly supported tokens (like those listed in the single "Create Payment R
 
 Once your data is correctly entered in your working copy of the template (either your Google Sheet copy or your downloaded Excel file):
 
-1.  In your Google Sheet or Excel application, select all rows, including the header row and all your subsequent data rows (Ctrl+A on Windows or Cmd+A on Mac).
+1.  In your Google Sheet or Excel application, select all rows, including the header row and all your subsequent data rows (`Ctrl+A` on Windows or `Cmd+A` on Mac).
     
-2.  Copy the selected data (Ctrl+C on Windows or Cmd+C on Mac).
+2.  Copy the selected data (`Ctrl+C` on Windows or `Cmd+C` on Mac).
     
-3.  Navigate to the "Import Payment Requests" section in NEAR Treasury (navigate to Payments, click "+ Create Request" and then "Import multiple payment requests").
+3.  Navigate to the **`Import Payment Requests`** section in NEAR Treasury
+    - Navigate to Payments, click `+ Create Request` and then `Import multiple Payment Requests`.
     
-4.  Paste your copied data into the "Paste Data" text area provided (Ctrl+V on Windows or Cmd+V on Mac).
+4.  Paste your copied data into the **`Paste Data`** text area provided (`Ctrl+V` on Windows or `Cmd+V` on Mac).
       
-    Our system will automatically interpret the pasted data and convert it to the required CSV format for processing.
+Our system will automatically interpret the pasted data and convert it to the required CSV format for processing.
     
 
 ## Step 3: Validate Your Data
 
-1.  After pasting your data, click the "Validate Data" button in NEAR Treasury.
+1.  After pasting your data, click the **`Validate Data`** button in NEAR Treasury.
     
 2.  The system will check your data (processing the header row appropriately) for correct column count, required information, and proper formatting in each data row.
     
 3.  If errors are found (in the data rows):
+    -   A list of errors will be displayed.
+    -   You must correct these errors in your working file, then repeat [Step 2 (Copy and Paste)](#step-2-copy-and-paste-your-data) and [Step 3 (Validate Data)](#step-3-validate-your-data).
     
-
--   A list of errors will be displayed.
-    
--   You must correct these errors in your working file, then repeat Step 2 (Copy and Paste) and Step 3 (Validate Data).
-    
-
-5.  If your data is valid:
-    
-
--   You'll be able to proceed to the next step.
-    
-
+4.  If your data is valid you'll be able to proceed to the next step.
   
 
 ## Step 4: Preview and Submit Your Requests
 
-1.  Click the "Preview X Requests" button.
+1.  Click the **`Preview X Requests`** button.
     
 2.  Review the parsed data in the preview table. Cancel and restart if you need to make any changes.
     
-3.  If everything is correct, click the "Submit X Requests".
+3.  If everything is correct, click the **`Submit X Requests`**.
     
-4.  Your requests will appear in the "Pending Requests" list, awaiting approval as per your treasury's rules.
+4.  Your requests will appear in the **`Pending Requests`** list, awaiting approval as per your treasury's rules.
     
 
 ## Best Practices
