@@ -15,7 +15,7 @@ To ensure your data is formatted correctly for import, always start with the off
 ### Accessing Template
 
 :::tip
-[Click here to open the Bulk Payment CSV Template](#).
+[Click here to open the Bulk Payment CSV Template](https://docs.google.com/spreadsheets/d/1VGpYu7Nzuuf1mgdeYiMgB2I6rX3VYtvbKP3RY2HuIj4/edit?gid=0#gid=0).
 :::
 
 When the Google Sheet opens, you have two options for editing:
@@ -34,7 +34,7 @@ Whether you're working in your copied Google Sheet or a downloaded Excel file, t
 | **Type**   | Defines the type of bulk operation. For creating payment requests, this value must be payment-request. (This column may support other types in the future for different bulk operations). | `payment-request` |
 | **Title** | A short, descriptive name for the payment request (e.g., purpose or project). This will be visible to approvers. | Oct Marketing Services, Community Grant - J.Doe, Bug Bounty Payout |
 | **Summary** (Optional) | A brief explanation of what the payment is for, providing more context if needed. | Payment for Oct 2025 content creation services., Approved grant for Q4 research project. |
-| **Recipient** | The NEAR account ID that will receive the funds (e.g., yourname.near or a 64-character hexadecimal string). Ensure this is accurate. | `alice.near`, `projectx.sputnik-dao.near`, `62a6aa7b25...107a3956` |
+| **Recipient** | The NEAR account ID that will receive the funds (e.g., `yourname.near` or a 64-character hexadecimal string). Ensure this is accurate. | `alice.near`, `projectx.sputnik-dao.near`, `62a6aa7b25...107a3956` |
 | **Requested Token** | The token you want the payment to be made in. Use common symbols (e.g., NEAR, USDt) for tokens supported by the Treasury, or the token's contract address for other NEP-141 tokens. Please see note below. | NEAR, USDt, `usdc.token-contract.near` |
 | **Total Amount** | The amount of the 'Requested Token' to be paid. Use a period (.) for decimals. Do not include commas or currency symbols. | `150.75`, `2500`, `0.05` |
 | **Notes** (Optional) | Any additional notes, references (like invoice numbers or links), or comments for this specific payment. | Invoice #2025-015, For approved proposal ID #123 |
