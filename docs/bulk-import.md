@@ -69,6 +69,9 @@ Once your data is correctly entered in your working copy of the template (either
       
 Our system will automatically interpret the pasted data and convert it to the required CSV format for processing.
     
+<div class="screenshot">
+<img src="/img/import/paste.png" width="40%" alt="Import payment requests" />
+</div>
 
 ## Step 3: Validate Your Data
 
@@ -85,7 +88,7 @@ Our system will automatically interpret the pasted data and convert it to the re
 
 ## Step 4: Preview and Submit Your Requests
 
-1.  Click the **`Preview X Requests`** button.
+1.  Click the **`Show Preview`** button.
     
 2.  Review the parsed data in the preview table. Cancel and restart if you need to make any changes.
     
@@ -93,6 +96,11 @@ Our system will automatically interpret the pasted data and convert it to the re
     
 4.  Your requests will appear in the **`Pending Requests`** list, awaiting approval as per your treasury's rules.
     
+<div class="screenshot">
+
+![Export](/img/import/preview.png)
+
+</div>
 
 ## Best Practices
 
