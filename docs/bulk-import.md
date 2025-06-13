@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 4
 title: Bulk Payment Import
 description: A Guide to Importing Bulk Payment Requests.
 ---
