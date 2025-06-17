@@ -15,7 +15,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 ## Creating a new treasury
 
-1.  Visit [neartreasury.com](https://neartreasury.com) and click <kbd>Get Started</kbd>.
+1.  Visit [neartreasury.com](https://neartreasury.com) and click **`Get Started`**.
 
 2.  If you are not signed in, sign in with your NEAR Account using your preferred wallet.
     -   We recommend using [Meteor Wallet](https://meteorwallet.app).
@@ -32,8 +32,8 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 4.  Enter a name for your treasury application (e.g., “myteam-treasury”).
     -   In this step, you are creating two accounts: a NEAR Account and a SputnikDAO account.
 
-:::tip
-We currently only support creating new SputnikDAO accounts. To import an existing account, [contact our team](https://docs.neartreasury.com/support).
+:::info
+Currently, NEAR Treasury only supports creating new SputnikDAO accounts. To import an existing account, please [contact the support team](support.md).
 :::
 
 <div class="screenshot">
@@ -43,10 +43,10 @@ We currently only support creating new SputnikDAO accounts. To import an existin
 ---
 
 5.  Add members to your treasury and define their permissions (`Requester`, `Admin`, `Approver`).
-    -   Refer to the [Roles & Permissions](https://docs.neartreasury.com/permissions) for a detailed explanation of each group.
+    -   Refer to the [Roles & Permissions](permissions.md) for a detailed explanation of each group.
 
 :::info
-The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](https://docs.neartreasury.com/settings).
+The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](settings.md).
 :::
 
 <div class="screenshot">
@@ -82,6 +82,11 @@ The voting thresholds policy will be set to one vote by default for all permissi
 Now that you have your Treasury up and running, be sure to check the following articles to learn more about the available features:
 
 - [Dashboard](dashboard.md)
+- [My Treasuries](my-treasuries.md)
 - [Payments](payments.md)
+- [Bulk Payment Import](bulk-import.md)
 - [Stake Delegation](stake.md)
+- [Asset Exchange](assets.md)
+- [Lockup](lockup.md)
+- [Roles & Permissions](permissions.md)
 - [Settings](settings.md)
