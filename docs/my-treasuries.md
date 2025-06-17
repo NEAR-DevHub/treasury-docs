@@ -6,7 +6,7 @@ description: Easy access to your Treasuries.
 
 ## Overview
 
-With NEAR Treasury you can be part of multiple treasuries and you can easily switch between them.
+With NEAR Treasury you can be part of multiple treasuries and you can easily [switch between them](#switch-treasuries).
 
 ## My Treasuries
 
@@ -20,12 +20,28 @@ Select the Treasury that you want to access by clicking on it:
 
 </div>
 
+### Other DAOs
+
+On the [NEAR Treasury landing page](https://treasury-factory.near.page/) you can also see other DAOs that you're currently member of.
+
+:::tip
+If you want to use any of these DAOs with NEAR Treasury, please [contact the support team](support.md).
+:::
+
+<div class="screenshot">
+
+<img alt="Other daos" src="/img/screens/my-treasury-dao.png" width="70%" />
+
+</div>
+
 ## Switch Treasuries
 
 You can switch between any of your treasuries using the top-left drop-down menu (next to the logo):
 
 <div class="screenshot">
 
-![Select drop down](/img/screens/my-treasury-drop.png)
+<img alt="Select drop down" src="/img/screens/my-treasury-drop.png" width="77%" />
 
 </div>
+
+
