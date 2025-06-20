@@ -29,9 +29,9 @@ This section covers the core features for managing your treasury's funds.
 
 To create a new payment request:
 
-1.  Navigate to the `Payments` section of the dashboard.
+1.  Navigate to the **`Payments`** section.
     
-2.  Click the `Create Request` button.
+2.  Click the **`Create Request`** button.
     
 3.  Fill in the required details, such as the recipient's wallet address, the amount to send, and any relevant notes.
     
@@ -46,7 +46,7 @@ To create a new payment request:
 
 Payment requests require approval from authorized team members. To review and vote on pending requests:
 
-1.  Go to the `Payments` section.
+1.  Navigate to the **`Payments`** section.
     
 2.  View the list of pending requests.
     
@@ -62,7 +62,7 @@ Payment requests require approval from authorized team members. To review and vo
 
 ## View Payment Details
 
-You can view payment details by clicking on any item under the `Pending Requests` or `History` list.
+You can view payment details by clicking on any item under the **`Pending Requests`** or **`History`** list.
 
 :::tip
 When opening the detail window, you can also copy a direct link to the payment detail page.
@@ -76,11 +76,11 @@ When opening the detail window, you can also copy a direct link to the payment d
 
 To export payment transaction records to a `.csv` file:
 
-1.  Navigate to the `Payments` section.
+1.  Navigate to the **`Payments`** section.
     
-2.  Switch to the `History` tab.
+2.  Switch to the **`History`** tab.
     
-3.  Click the `Export as CSV` button.
+3.  Click the **`Export as CSV`** button.
 
 
 <div class="screenshot">

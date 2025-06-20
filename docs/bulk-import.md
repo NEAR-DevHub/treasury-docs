@@ -20,9 +20,9 @@ To ensure your data is formatted correctly for import, always start with the off
 
 When the Google Sheet opens, you have two options for editing:
 
-- **Option A:** Make your own copy by going to `File` > `Make a copy` in the Google Sheets menu. Save this copy to your own Google Drive and enter your data there.
+- **Option A:** Make your own copy by going to **`File`** > **`Make a copy`** in the Google Sheets menu. Save this copy to your own Google Drive and enter your data there.
     
-- **Option B:** Download the template as an Excel file by going to `File` > `Download` > `Microsoft Excel (.xlsx)`. Save this file to your computer and enter your data using Microsoft Excel or another spreadsheet program.
+- **Option B:** Download the template as an Excel file by going to **`File`** > **`Download`** > **`Microsoft Excel (.xlsx)`**. Save this file to your computer and enter your data using Microsoft Excel or another spreadsheet program.
     
 
 ### How to Fill in the Template
@@ -40,7 +40,7 @@ Whether you're working in your copied Google Sheet or a downloaded Excel file, t
 | **Notes** (Optional) | Any additional notes, references (like invoice numbers or links), or comments for this specific payment. | Invoice #2025-015, For approved proposal ID #123 |
 
 :::info Note on Requested Token
-For commonly supported tokens (like those listed in the single "Create Payment Request" token dropdown), using the standard symbol (e.g., NEAR, USDt) is often sufficient. For other [NEP-141](https://github.com/near/NEPs/blob/master/neps/nep-0141.md) tokens, or to ensure precision, using the token's full contract address (e.g., `usdt.tether-token.near`) is recommended. The system will validate the token you enter. If unsure, verify the correct symbol or contract address from reliable sources or within the NEAR Treasury app.
+For commonly supported tokens (like those listed in the single **`Create Payment Request`** token dropdown), using the standard symbol (e.g., NEAR, USDt) is often sufficient. For other [NEP-141](https://github.com/near/NEPs/blob/master/neps/nep-0141.md) tokens, or to ensure precision, using the token's full contract address (e.g., `usdt.tether-token.near`) is recommended. The system will validate the token you enter. If unsure, verify the correct symbol or contract address from reliable sources or within the NEAR Treasury app.
 :::
 
 ### Important Tips for Template
@@ -63,7 +63,9 @@ Once your data is correctly entered in your working copy of the template (either
 2.  Copy the selected data (`Ctrl+C` on Windows or `Cmd+C` on Mac).
     
 3.  Navigate to the **`Import Payment Requests`** section in NEAR Treasury
-    - Navigate to Payments, click `+ Create Request` and then `Import multiple Payment Requests`.
+    - Navigate to **`Payments`**
+    - Click **`+ Create Request`**
+    - Select **`Import multiple Payment Requests`**.
     
 4.  Paste your copied data into the **`Paste Data`** text area provided (`Ctrl+V` on Windows or `Cmd+V` on Mac).
       
