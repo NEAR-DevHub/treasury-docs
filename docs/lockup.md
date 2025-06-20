@@ -31,8 +31,8 @@ Here you can view pending lockup requests, their history, and create new request
 
 To create a new lockup using your treasury's tokens:
     
-1.  Go to the `Lockup` section.
-2.  Click the `Create Request` button.
+1.  Navigate to the **`Lockup`** section.
+2.  Click the **`Create Request`** button.
 3.  Select the recipient for your lockup tokens.
 4.  Choose the amount to lockup and select start and end dates.
 5.  Submit the lockup request for approval.
@@ -46,7 +46,7 @@ To create a new lockup using your treasury's tokens:
 
 Lockup actions require approval from authorized team members. To review and vote on pending requests:
 
-1.  Go to the `Lockup` section.
+1.  Navigate to the **`Lockup`** section.
     
 2.  View the list of pending requests.
     
@@ -64,11 +64,11 @@ Lockup actions require approval from authorized team members. To review and vote
 
 To export lockup transaction records to a `.csv` file:
 
-1.  Navigate to the `Lockup` section.
+1.  Navigate to the **`Lockup`** section.
     
-2.  Switch to the `History` tab.
+2.  Switch to the **`History`** tab.
     
-3.  Click the `Export as CSV` button.
+3.  Click the **`Export as CSV`** button.
 
 
 <div class="screenshot">

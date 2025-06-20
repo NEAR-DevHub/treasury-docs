@@ -17,37 +17,70 @@ Each member of your treasury can have one or more permission groups assigned tha
 
 ## Understanding the Permission Groups
 
+:::info
+-   A member can have multiple roles assigned. For example, a user can have both a **`Requestor`** and **`Approver`** roles.
+-   A user with multiple roles will have the combined permissions granted by each of their assigned roles.
+:::
+
 ### 1. Requestor
 
 Allows to create requests related to the treasury's funds (e.g. treasury transaction requests).
 
-**Can:**
+<table>
+<thead>
+<tr><th width="50%">Can</th><th>Cannot</th></tr>
+</thead>
+<tbody>
+<tr><td>
+
 -   Create payment requests.
 -   Create staking, unstaking, and withdraw requests.
 -   Create asset exchange requests.
 -   Delete their own treasury transaction requests
 
-**Cannot:**
+</td><td>
+
 -   Vote on treasury transaction requests created by others.
 -   Create or vote on treasury configuration requests (e.g., changing settings, adding members).
+
+</td></tr>
+</tbody>
+</table>
 
 ### 2. Approver
 
 Responsible for reviewing and voting on treasury transaction requests.
 
-**Can:**
+<table>
+<thead>
+<tr><th width="50%">Can</th><th>Cannot</th></tr>
+</thead>
+<tbody>
+<tr><td>
+
 -   Vote to approve or reject treasury transaction requests created by Requestors.
 
-**Cannot:**
+</td><td>
+
 -   Create treasury transaction requests.
 -   Create or vote on treasury configuration requests.
 -   Delete requests.
+
+</td></tr>
+</tbody>
+</table>
 
 ### 3. Admin
 
 Responsible for configuring the treasury's settings and member configuration.
 
-**Can:**
+<table>
+<thead>
+<tr><th width="50%">Can</th><th>Cannot</th></tr>
+</thead>
+<tbody>
+<tr><td>
+
 -   Create requests to add, edit, or delete members.
 -   Create requests to update the voting duration.
 -   Create requests to update the treasury's theme and logo.
@@ -55,16 +88,14 @@ Responsible for configuring the treasury's settings and member configuration.
 -   Vote on any treasury configuration requests.
 -   Delete their own configuration requests
 
-**Cannot:**
+</td><td>
+
 -   Create treasury transaction requests (e.g., payments, staking).
 -   Vote on treasury transaction requests.
 
-### Important Notes
-
-:::tip
--   A member can have multiple roles assigned. For example, a user can have both a `Requester` and `Approver` roles.
--   A user with multiple roles will have the combined permissions granted by each of their assigned roles.
-:::
+</td></tr>
+</tbody>
+</table>
 
 ## Permission Matrix
 

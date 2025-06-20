@@ -31,9 +31,9 @@ You can stake your treasury's tokens to earn rewards or unstake them to regain a
 
 To stake tokens:
     
-1.  Go to the `Staking` section.
-
-2.  Click the `Create Request` button and select `Stake`.
+1.  Navigate to the **`Staking`** section.
+    
+2.  Click the **`Create Request`** button and select **`Stake`**.
     
 3.  Select the token you want to stake.
     
@@ -50,9 +50,9 @@ To stake tokens:
 
 To unstake tokens:
 
-1.  Go to the `Staking` section.
-
-2.  Click the `Create Request` button and select `Unstake`.
+1.  Navigate to the **`Staking`** section.
+    
+2.  Click the **`Create Request`** button and select **`Unstake`**.
     
 3.  Select the staked tokens you want to unstake.
     
@@ -68,10 +68,10 @@ To unstake tokens:
 
 In some cases, you may need to create a withdrawal request to move funds out of your treasury. This can be necessary for unstaked tokens or other scenarios. To create a withdrawal request:
 
-1.  Go to the `Staking` section.
-
-2.  Click the `Create Request` button and select `Withdraw`.
-
+1.  Navigate to the **`Staking`** section.
+    
+2.  Click the **`Create Request`** button and select **`Withdraw`**.
+    
 3.  Submit the withdrawal request for approval.
 
 :::info
@@ -87,7 +87,7 @@ By submitting a Withdrawal, you request to withdraw all available funds. A separ
 
 Stake actions require approval from authorized team members. To review and vote on pending requests:
 
-1.  Go to the `Stake Delegation` section.
+1.  Navigate to the **`Stake Delegation`** section.
     
 2.  View the list of pending requests.
     
@@ -109,11 +109,11 @@ If your treasury has any funds in lockup accounts, you can monitor and manage th
 
 To export stake delegation transaction records to a `.csv` file:
 
-1.  Navigate to the `Stake Delegation` section.
+1.  Navigate to the **`Stake Delegation`** section.
     
-2.  Switch to the `History` tab.
+2.  Switch to the **`History`** tab.
     
-3.  Click the `Export as CSV` button.
+3.  Click the **`Export as CSV`** button.
 
 
 <div class="screenshot">

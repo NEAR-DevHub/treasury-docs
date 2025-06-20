@@ -23,8 +23,8 @@ You can exchange your treasury's tokens to other supported assets and tokens, ba
 - [Approving or Rejecting Exchange Requests](#approving-or-rejecting-exchange-requests)
 - [Exporting Asset Exchange Transactions](#exporting-asset-exchange-transactions)
 
-:::tip
-Near Treasury utilizes the [Rhea Finance SDK](concepts/exchange.md), which enables token swaps through its [Smart Routing](concepts/exchange.md#rhea-auto-router) feature. Learn more about it in [this article](concepts/exchange.md).
+:::info
+Token swaps on Near Treasury are powered by Rhea Finance SDK’s [Smart Routing feature](concepts/exchange.md#rhea-auto-router).
 :::
 
 ---
@@ -33,7 +33,7 @@ Near Treasury utilizes the [Rhea Finance SDK](concepts/exchange.md), which enabl
 
 To exchange one type of cryptocurrency for another:
 
-1.  Go to the `Asset Exchange` section.
+1.  Navigate to the **`Asset Exchange`** section.
     
 2.  Select the tokens you want to exchange.
     
@@ -62,7 +62,7 @@ To exchange one type of cryptocurrency for another:
 
 Asset exchange actions require approval from authorized team members. To review and vote on pending requests:
 
-1.  Go to the `Asset Exchange` section.
+1.  Navigate to the **`Asset Exchange`** section.
     
 2.  View the list of pending requests.
     
@@ -80,11 +80,11 @@ Asset exchange actions require approval from authorized team members. To review 
 
 To export asset exchange transaction records to a `.csv` file:
 
-1.  Navigate to the `Asset Exchange` section.
+1.  Navigate to the **`Asset Exchange`** section.
     
-2.  Switch to the `History` tab.
+2.  Switch to the **`History`** tab.
     
-3.  Click the `Export as CSV` button.
+3.  Click the **`Export as CSV`** button.
 
 
 <div class="screenshot">
