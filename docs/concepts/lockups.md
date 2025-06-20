@@ -45,7 +45,7 @@ For example, a 4-year linear lockup with a 1-year cliff will have the following 
 
 
 :::info
-_See how NEAR tokens have been distributed and what lockups generally apply in_ [_this post_](https://near.org/blog/near-token-supply-and-distribution/)_._
+See how NEAR tokens have been distributed and what lockups generally apply in [this post](https://near.org/blog/near-token-supply-and-distribution/).
 :::
 
 ### Vesting
