@@ -39,15 +39,51 @@ To add members to your treasury:
 
 1.  Navigate to the **`Settings`** page.
 2.  Select the **`Members`** tab.
-3.  Click the **`+ New Member`** button.
+3.  Click the **`+ Add Member`** button.
 4.  Enter the NEAR wallet address of the new member.
 5.  Choose the member's role(s): [**`Requestor`**](permissions.md#1-requestor), [**`Approver`**](permissions.md#2-approver), or [**`Admin`**](permissions.md#3-admin).  You can select multiple roles for a member.
     - See [Roles & Permissions](permissions.md) for a detailed explanation of each role.
 6.  Click the **`Save`** button and confirm the transactions.
-7.  Go to the **`Requests`** page to [approve this request](#pending-requests).
+7.  Go to the **`Requests`** page to [approve the request](#pending-requests).
 
 <div class="screenshot">
 <img src="/img/settings/adding.png" width="40%" alt="add members" />
+</div>
+
+### Editing Members
+
+To edit members from your treasury:
+
+1.  Navigate to the **`Settings`** page.
+2.  Select the **`Members`** tab.
+3.  Select one or more members by clicking the member's checkbox.
+4.  Click the **`Edit`** button.
+    <div class="screenshot">
+    <img src="/img/settings/editing.png" alt="edit members" />
+    </div>
+5.  On the **`Edit Members`** window, modify the permissions as needed.
+6.  Click **`Submit`** to confirm the action.
+7.  Go to the **`Requests`** page to [approve the request](#pending-requests).
+
+<div class="screenshot">
+<img src="/img/settings/edit-member.png" width="40%" alt="edit members" />
+</div>
+
+### Deleting Members
+
+To delete members from your treasury:
+
+1.  Navigate to the **`Settings`** page.
+2.  Select the **`Members`** tab.
+3.  Select one or more members by clicking the member's checkbox.
+4.  Click the **`Delete`** button.
+5.  On the confirmation window, click **`Remove`** to confirm the action.
+6.  Go to the **`Requests`** page to [approve the request](#pending-requests).
+
+<div class="screenshot">
+
+![Delete members](/img/settings/deleting.png)
+
 </div>
 
 ## Voting Thresholds
