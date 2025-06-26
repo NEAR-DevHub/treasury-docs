@@ -15,9 +15,28 @@ The Settings section allows Admins (see [Roles & Permissions](https://docs.neart
 
 </div>
 
+**Available actions:**
+
+- [Approving or Rejecting Pending Requests](#pending-requests)
+- [Adding Members](#adding-members)
+- [Editing Members](#editing-members)
+- [Deleting Members](#deleting-members)
+- [Setting Vote Thresholds](#setting-thresholds)
+- [Setting Vote Duration](#voting-duration)
+- [Theme & Logo](#theme--logo)
+- [Reviewing System Updates](#reviewing-system-updates)
+
 ## Pending Requests
 
 When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request, but only users with the Admin role can vote to approve or reject.
+
+To review and vote on pending requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. View the list of pending requests.
+4. Review the details of each request.
+5. Cast your vote to approve or reject the request.
 
 <div class="screenshot">
 
@@ -113,6 +132,13 @@ To set the voting thresholds:
 ## Voting Duration
 
 The Voting Duration section allows Admins to set the timeframe during which team members can vote on pending requests. If the voting threshold is met to reach a decision, the request will be approved or rejected based on the voting results. If the voting period ends and there are not enough votes to reach a decision, the request will expire.
+
+To set a voting duration:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Voting Duration`** tab.
+3. Set the number of days a vote is active.
+4.  Click the **`Submit Request`** button.
 
 <div class="screenshot">
 <img src="/img/settings/duration.png" width="70%" alt="voting duration" />
