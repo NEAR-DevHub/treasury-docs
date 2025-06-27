@@ -58,7 +58,7 @@ To add members to your treasury:
 
 1.  Navigate to the **`Settings`** page.
 2.  Select the **`Members`** tab.
-3.  Click the **`+ Add Member`** button.
+3.  Click the **`+ Add Members`** button.
 4.  Enter the NEAR wallet address of the new member.
 5.  Choose the member's role(s): [**`Requestor`**](permissions.md#1-requestor), [**`Approver`**](permissions.md#2-approver), or [**`Admin`**](permissions.md#3-admin).  You can select multiple roles for a member.
     - See [Roles & Permissions](permissions.md) for a detailed explanation of each role.
