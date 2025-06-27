@@ -137,7 +137,7 @@ To set a voting duration:
 
 1. Navigate to the **`Settings`** section.
 2. Select the **`Voting Duration`** tab.
-3. Set the number of days a vote is active.
+3. Set the number of days a proposal stays open for voting.
 4.  Click the **`Submit Request`** button.
 
 <div class="screenshot">
