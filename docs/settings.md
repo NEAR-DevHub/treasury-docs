@@ -15,9 +15,28 @@ The Settings section allows Admins (see [Roles & Permissions](https://docs.neart
 
 </div>
 
+**Available actions:**
+
+- [Approving or Rejecting Pending Requests](#pending-requests)
+- [Adding Members](#adding-members)
+- [Editing Members](#editing-members)
+- [Deleting Members](#deleting-members)
+- [Setting Vote Thresholds](#setting-thresholds)
+- [Setting Vote Duration](#voting-duration)
+- [Theme & Logo](#theme--logo)
+- [Reviewing System Updates](#reviewing-system-updates)
+
 ## Pending Requests
 
 When you first access the Settings section, you'll see a list of pending requests. These are requests to modify the treasury's configuration that are awaiting approval. You can review the details of each request, but only users with the Admin role can vote to approve or reject.
+
+To review and vote on pending requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. View the list of pending requests.
+4. Review the details of each request.
+5. Cast your vote to approve or reject the request.
 
 <div class="screenshot">
 
@@ -39,15 +58,51 @@ To add members to your treasury:
 
 1.  Navigate to the **`Settings`** page.
 2.  Select the **`Members`** tab.
-3.  Click the **`+ New Member`** button.
+3.  Click the **`+ Add Members`** button.
 4.  Enter the NEAR wallet address of the new member.
 5.  Choose the member's role(s): [**`Requestor`**](permissions.md#1-requestor), [**`Approver`**](permissions.md#2-approver), or [**`Admin`**](permissions.md#3-admin).  You can select multiple roles for a member.
     - See [Roles & Permissions](permissions.md) for a detailed explanation of each role.
 6.  Click the **`Save`** button and confirm the transactions.
-7.  Go to the **`Requests`** page to [approve this request](#pending-requests).
+7.  Go to the **`Requests`** page to [approve the request](#pending-requests).
 
 <div class="screenshot">
 <img src="/img/settings/adding.png" width="40%" alt="add members" />
+</div>
+
+### Editing Members
+
+To edit members from your treasury:
+
+1.  Navigate to the **`Settings`** page.
+2.  Select the **`Members`** tab.
+3.  Select one or more members by clicking the member's checkbox.
+4.  Click the **`Edit`** button.
+    <div class="screenshot">
+    <img src="/img/settings/editing.png" alt="edit members" />
+    </div>
+5.  On the **`Edit Members`** window, modify the permissions as needed.
+6.  Click **`Submit`** to confirm the action.
+7.  Go to the **`Requests`** page to [approve the request](#pending-requests).
+
+<div class="screenshot">
+<img src="/img/settings/edit-member.png" width="40%" alt="edit members" />
+</div>
+
+### Deleting Members
+
+To delete members from your treasury:
+
+1.  Navigate to the **`Settings`** page.
+2.  Select the **`Members`** tab.
+3.  Select one or more members by clicking the member's checkbox.
+4.  Click the **`Delete`** button.
+5.  On the confirmation window, click **`Remove`** to confirm the action.
+6.  Go to the **`Requests`** page to [approve the request](#pending-requests).
+
+<div class="screenshot">
+
+![Delete members](/img/settings/deleting.png)
+
 </div>
 
 ## Voting Thresholds
@@ -77,6 +132,13 @@ To set the voting thresholds:
 ## Voting Duration
 
 The Voting Duration section allows Admins to set the timeframe during which team members can vote on pending requests. If the voting threshold is met to reach a decision, the request will be approved or rejected based on the voting results. If the voting period ends and there are not enough votes to reach a decision, the request will expire.
+
+To set a voting duration:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Voting Duration`** tab.
+3. Set the number of days a proposal stays open for voting.
+4.  Click the **`Submit Request`** button.
 
 <div class="screenshot">
 <img src="/img/settings/duration.png" width="70%" alt="voting duration" />
