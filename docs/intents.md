@@ -24,6 +24,8 @@ NEAR Intents is currently available on selected treasuries. If you'd like to ena
 - [Making Deposits](#making-deposits)
 - [Creating Payment Requests](#creating-payment-requests)
 
+---
+
 ## Asset Management
 
 The NEAR Intents dashboard integrates seamlessly into the Treasury Dashboard, providing a comprehensive view of your cross-chain assets.
@@ -116,29 +118,18 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
 
 ## Creating Payment Requests
 
-NEAR Intents enables DAOs to create payment requests that utilize cross-chain assets for disbursements.
-
-### Payment Request Types
-
-1. **Cross-Chain Payments**: Send BTC, ETH, or other assets to external addresses
-2. **NEAR Native Payments**: Transfer wNEAR or other NEAR tokens
-3. **Multi-Asset Support**: Choose from any available asset in your treasury
+NEAR Intents enables DAOs to create payment requests that utilize cross-chain assets for disbursements, including:
+- **Cross-Chain Payments**: Send BTC, ETH, or other assets to external addresses
+- **NEAR Native Payments**: Transfer wNEAR or other NEAR tokens
+- **Multi-Asset Support**: Choose from any available asset in your treasury
 
 ### Creating a Payment Request
 
-Follow the regular process to [create a payment request](payments.md#creating-payment-requests).
-
-**Bitcoin Payment Request**:
-
-<div class="screenshot">
-<img alt="BTC Payment Request" src="/img/intents/btc-payment.png" width="40%" />
-</div>
-
-*Example of a payment request form configured for Bitcoin payments*
+Follow the regular process to [create a payment request](payments.md#creating-payment-requests):
 
 1. **Access Payment Interface**
-   - Navigate to the payment request section
-   - Select "Create New Payment Request"
+   - Navigate to the **`Payments`** section
+   - Select **`Create Request`**
 
 2. **Configure Payment Details**
    - **Recipient**: Enter the destination address
@@ -146,13 +137,17 @@ Follow the regular process to [create a payment request](payments.md#creating-pa
    - **Amount**: Specify the payment amount
    - **Description**: Add context for the payment
 
+<div class="screenshot">
+<img alt="BTC Payment Request" src="/img/intents/btc-payment.png" width="40%" />
+</div>
 
-3. **Address Validation**
+:::info Address Validation
    - The system validates recipient addresses for the selected network
    - Format checking ensures compatibility with the target blockchain
    - Network-specific validation prevents errors
+:::
 
-4. **Submit for Approval**
+3. **Submit for Approval**
    - Payment requests follow standard DAO governance processes
    - Council members vote on approval
    - Approved payments are executed automatically
