@@ -152,7 +152,7 @@ Follow the regular process to [create a payment request](payments.md#creating-pa
    - Council members vote on approval
    - Approved payments are executed automatically
 
-## Common Issues
+## Troubleshooting
 
 Here's a quick reference for troubleshooting common issues:
 
