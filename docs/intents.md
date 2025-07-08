@@ -151,3 +151,32 @@ Follow the regular process to [create a payment request](payments.md#creating-pa
    - Payment requests follow standard DAO governance processes
    - Council members vote on approval
    - Approved payments are executed automatically
+
+## Common Issues
+
+Here's a quick reference for troubleshooting common issues:
+
+- **Deposit Not Appearing**
+   - Check transaction status on source blockchain
+   - Verify minimum confirmation requirements
+   - Ensure correct deposit address was used
+   - [Contact support](support.md) if delayed beyond expected timeframe
+
+- **Payment Request Failures**
+   - Verify sufficient balance in treasury
+   - Check recipient address format
+   - Ensure network compatibility
+   - Review gas fee requirements
+
+- **Balance Display Issues**
+   - Refresh the dashboard
+   - Check network connectivity
+   - Verify RPC endpoint status
+   - Clear browser cache if necessary
+
+- **Error Messages**
+   - *`Insufficient Balance`*: Treasury lacks required funds for payment
+   - *`Invalid Address`*: Recipient address format is incorrect
+   - *`Network Mismatch`*: Asset not supported on selected network
+   - *`Proposal Required`*: Payment exceeds single-signer limit
+
