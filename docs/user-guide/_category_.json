@@ -1,10 +1,9 @@
 {
   "position": 3,
-  "label": "Stake Delegation",
+  "label": "User Guides",
   "collapsible": true,
   "collapsed": true,
   "link": {
-    "type": "generated-index",
     "slug": "stake",
     "title": "Treasury Stake Delegation",
     "description": "Stake your tokens to earn rewards and unstake them to regain access to the funds."
