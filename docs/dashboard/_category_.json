@@ -3,9 +3,4 @@
   "label": "Dashboard",
   "collapsible": true,
   "collapsed": true,
-  "link": {
-    "slug": "dashboard",
-    "title": "Treasury Dashboard",
-    "description": "The Dashboard provides a centralized overview of your treasury's finances."
-  }
 }

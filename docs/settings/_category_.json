@@ -3,9 +3,4 @@
   "label": "Settings",
   "collapsible": true,
   "collapsed": true,
-  "link": {
-    "slug": "settings",
-    "title": "Treasury Settings",
-    "description": "Settings allows you to configure various aspects of your NEAR Treasury dashboard."
-  }
 }
