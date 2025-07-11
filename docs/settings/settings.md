@@ -7,7 +7,7 @@ description: Configure your NEAR Treasury dashboard.
 
 ## Overview
 
-The Settings section allows Admins (see [Roles & Permissions](https://docs.neartreasury.com/permissions)) to configure various aspects of your NEAR Treasury dashboard.
+The Settings section allows Admins (see [Roles & Permissions](permissions.md)) to configure various aspects of your NEAR Treasury dashboard.
 
 <div class="screenshot">
 
