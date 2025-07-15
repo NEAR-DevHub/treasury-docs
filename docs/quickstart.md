@@ -43,10 +43,10 @@ Currently, NEAR Treasury only supports creating new SputnikDAO accounts. To impo
 ---
 
 5.  Add members to your treasury and define their permissions (`Requester`, `Admin`, `Approver`).
-    -   Refer to the [Roles & Permissions](settings/permissions.md) for a detailed explanation of each group.
+    -   Refer to the [Roles & Permissions](dashboard/settings/permissions.md) for a detailed explanation of each group.
 
 :::info
-The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](settings/settings.md).
+The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](dashboard/settings/settings.md).
 :::
 
 <div class="screenshot">
@@ -88,5 +88,5 @@ Now that you have your Treasury up and running, be sure to check the following a
 - [Stake Delegation](dashboard/stake-delegation.md)
 - [Asset Exchange](dashboard/asset-exchange.md)
 - [Lockup](dashboard/lockup.md)
-- [Roles & Permissions](settings/permissions.md)
-- [Settings](settings/settings.md)
+- [Roles & Permissions](dashboard/settings/permissions.md)
+- [Settings](dashboard/settings/settings.md)
