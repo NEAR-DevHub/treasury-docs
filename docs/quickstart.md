@@ -19,7 +19,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 2.  If you are not signed in, sign in with your NEAR Account using your preferred wallet.
     -   We recommend using [Meteor Wallet](https://meteorwallet.app).
-    -   [Ledger users](ledger.md) can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
+    -   [Ledger users](user-guide/ledger.md) can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
 3.  Confirm your wallet.
     -   This is the account that will be used to pay for creating the treasury and will be your initial administrator account.
 
@@ -43,10 +43,10 @@ Currently, NEAR Treasury only supports creating new SputnikDAO accounts. To impo
 ---
 
 5.  Add members to your treasury and define their permissions (`Requester`, `Admin`, `Approver`).
-    -   Refer to the [Roles & Permissions](permissions.md) for a detailed explanation of each group.
+    -   Refer to the [Roles & Permissions](dashboard/settings/permissions.md) for a detailed explanation of each group.
 
 :::info
-The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](settings.md).
+The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](dashboard/settings/settings.md).
 :::
 
 <div class="screenshot">
@@ -81,12 +81,12 @@ The voting thresholds policy will be set to one vote by default for all permissi
 
 Now that you have your Treasury up and running, be sure to check the following articles to learn more about the available features:
 
-- [Dashboard](dashboard.md)
+- [Dashboard](dashboard/dashboard.md)
 - [My Treasuries](my-treasuries.md)
-- [Payments](payments.md)
-- [Bulk Payment Import](bulk-import.md)
-- [Stake Delegation](stake.md)
-- [Asset Exchange](assets.md)
-- [Lockup](lockup.md)
-- [Roles & Permissions](permissions.md)
-- [Settings](settings.md)
+- [Payments](dashboard/payments.md)
+- [Bulk Payment Import](user-guide/bulk-import.md)
+- [Stake Delegation](dashboard/stake-delegation.md)
+- [Asset Exchange](dashboard/asset-exchange.md)
+- [Lockup](dashboard/lockup.md)
+- [Roles & Permissions](dashboard/settings/permissions.md)
+- [Settings](dashboard/settings/settings.md)
