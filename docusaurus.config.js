@@ -119,7 +119,7 @@ const config = {
           {
             label: "Contact us",
             position: "right",
-            to: "/support"
+            to: "/help/support"
           },
           {
             href: 'https://github.com/NEAR-DevHub/treasury-docs',

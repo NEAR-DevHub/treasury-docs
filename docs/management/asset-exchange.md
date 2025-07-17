@@ -24,7 +24,7 @@ You can exchange your treasury's tokens to other supported assets and tokens, ba
 - [Exporting Asset Exchange Transactions](#exporting-asset-exchange-transactions)
 
 :::info
-Token swaps on Near Treasury are powered by Rhea Finance SDK’s [Smart Routing feature](concepts/exchange.md#rhea-auto-router).
+Token swaps on Near Treasury are powered by Rhea Finance SDK’s [Smart Routing feature](../help/exchange.md#rhea-auto-router).
 :::
 
 ---
@@ -48,7 +48,7 @@ To exchange one type of cryptocurrency for another:
 
 - **Price Deference:** The difference between the market price and the price you get.
 
-- **Pool fee:** Fee collected by [RHEA Finance](concepts/exchange.md) and shared with liquidity providers as a reward for providing liquidity to the pool.
+- **Pool fee:** Fee collected by [RHEA Finance](../help/exchange.md) and shared with liquidity providers as a reward for providing liquidity to the pool.
 
 - **Additional Storage Purchase:** To collect a new token, you need to purchase storage space. After submission, 0.1 NEAR will be charged from your account as an additional transaction.
 :::
