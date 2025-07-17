@@ -1,12 +1,12 @@
 {
-  "position": 8,
-  "label": "Concepts",
+  "position": 6,
+  "label": "Help & Reference",
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "generated-index",
     "slug": "concepts",
-    "title": "Treasury Concepts",
+    "title": "Help & Reference",
     "description": "Learn more about the Treasury features and how they work."
   }
 }
