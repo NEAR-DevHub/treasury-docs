@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: My Treasuries
 description: Easy access to your Treasuries.
 ---
@@ -25,7 +25,7 @@ Select the Treasury that you want to access by clicking on it:
 On the [NEAR Treasury landing page](https://treasury-factory.near.page/) you can also see other DAOs that you're currently member of.
 
 :::tip
-If you want to use any of these DAOs with NEAR Treasury, please [contact the support team](support.md).
+If you want to use any of these DAOs with NEAR Treasury, please [contact the support team](../help/support.md).
 :::
 
 <div class="screenshot">

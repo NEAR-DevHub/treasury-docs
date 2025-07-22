@@ -7,7 +7,7 @@ description: Update Treasury functionality including contract, policy, and app w
 
 ## About updates
 
-The [system update](../dashboard/settings/settings.md#system-updates) allows Treasury developers to share important updates with treasury instances. These updates can relate to contract or frontend UI (e.g., Sputnik contract upgrades, DAO policy updates, or new UI features).
+The [system update](../settings.md#system-updates) allows Treasury developers to share important updates with treasury instances. These updates can relate to contract or frontend UI (e.g., Sputnik contract upgrades, DAO policy updates, or new UI features).
 These available updates can be reviewed, approved, and applied manually by treasury administrators.
 
 ## Update Types
@@ -41,7 +41,7 @@ If you visit the updates page and the system detects that your instance is alrea
 
 :::info Why Updates May Disappear?
 
-  - If you see an update notification but when you visit the [Settings page](../dashboard/settings/settings.md) the update disappears, this means the system has checked your instance and determined that the update is no longer needed (e.g.,  the upgrade may have already been applied—possibly by another admin or from a different browser—or the update request might have already been created and is still pending a vote).
+  - If you see an update notification but when you visit the [Settings page](../settings.md) the update disappears, this means the system has checked your instance and determined that the update is no longer needed (e.g.,  the upgrade may have already been applied—possibly by another admin or from a different browser—or the update request might have already been created and is still pending a vote).
   - This can be confusing, but it is expected behavior due to the decentralized and stateless nature of the [update tracking system](#how-update-status-is-tracked).
 
 :::

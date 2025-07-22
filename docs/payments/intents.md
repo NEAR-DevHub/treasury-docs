@@ -9,7 +9,7 @@ description: NEAR Intents User Guide.
 NEAR Intents is a powerful feature of the Treasury Dashboard that enables cross-chain asset management and payment processing. This system allows DAOs to receive deposits from multiple blockchain networks and create payment requests for various cryptocurrencies while maintaining assets in a unified interface.
 
 :::info
-NEAR Intents is currently available on selected treasuries. If you'd like to enable this feature on your Treasury, please [contact the support team](support.md).
+NEAR Intents is currently available on selected treasuries. If you'd like to enable this feature on your Treasury, please [contact the support team](../help/support.md).
 :::
 
 <div class="screenshot">
@@ -125,7 +125,7 @@ NEAR Intents enables DAOs to create payment requests that utilize cross-chain as
 
 ### Creating a Payment Request
 
-Follow the regular process to [create a payment request](payments.md#creating-payment-requests):
+Follow the regular process to [create a payment request](../payments/manage-payments.md#creating-payment-requests):
 
 1. **Access Payment Interface**
    - Navigate to the **`Payments`** section
@@ -160,7 +160,7 @@ Here's a quick reference for troubleshooting common issues:
    - Check transaction status on source blockchain
    - Verify minimum confirmation requirements
    - Ensure correct deposit address was used
-   - [Contact support](support.md) if delayed beyond expected timeframe
+   - [Contact support](../help/support.md) if delayed beyond expected timeframe
 
 - **Payment Request Failures**
    - Verify sufficient balance in treasury
