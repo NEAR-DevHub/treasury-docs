@@ -19,7 +19,7 @@ To create a Treasury, you'll need a [NEAR wallet](https://wallet.near.org) with 
 
 2.  If you are not signed in, sign in with your NEAR Account using your preferred wallet.
     -   We recommend using [Meteor Wallet](https://meteorwallet.app).
-    -   [Ledger users](../configuration/ledger.md) can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
+    -   [Ledger users](../help/ledger.md) can connect directly without a named NEAR account or alternatively use a third-party wallet with Ledger support.
 3.  Confirm your wallet.
     -   This is the account that will be used to pay for creating the treasury and will be your initial administrator account.
 
@@ -46,7 +46,7 @@ Currently, NEAR Treasury only supports creating new SputnikDAO accounts. To impo
     -   Refer to the [Roles & Permissions](permissions.md) for a detailed explanation of each group.
 
 :::info
-The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](../configuration/settings.md).
+The voting thresholds policy will be set to one vote by default for all permission groups. You can modify those later in the [Settings](../settings.md).
 :::
 
 <div class="screenshot">
@@ -81,7 +81,7 @@ The voting thresholds policy will be set to one vote by default for all permissi
 
 Now that you have your Treasury up and running, be sure to check the following articles to learn more about the available features:
 
-- [Dashboard](../management/dashboard.md)
+- [Dashboard](../dashboard.md)
 - [My Treasuries](my-treasuries.md)
 - [Payments](../payments/manage-payments.md)
 - [Bulk Payment Import](../payments/bulk-import.md)
@@ -89,4 +89,4 @@ Now that you have your Treasury up and running, be sure to check the following a
 - [Asset Exchange](../management/asset-exchange.md)
 - [Lockup](../management/lockup.md)
 - [Roles & Permissions](permissions.md)
-- [Settings](../configuration/settings.md)
+- [Settings](../settings.md)

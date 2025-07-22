@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 5
 sidebar_label: "Settings"
 title: Settings
 description: Configure your NEAR Treasury dashboard.
@@ -7,7 +7,7 @@ description: Configure your NEAR Treasury dashboard.
 
 ## Overview
 
-The Settings section allows Admins (see [Roles & Permissions](../setup/permissions.md)) to configure various aspects of your NEAR Treasury dashboard.
+The Settings section allows Admins (see [Roles & Permissions](setup/permissions.md)) to configure various aspects of your NEAR Treasury dashboard.
 
 <div class="screenshot">
 
@@ -46,7 +46,7 @@ To review and vote on pending requests:
 
 ## Members
 
-This section allows the Admin to manage the members of your treasury. The Admin can create a request to add new members, edit existing members’ roles, or remove members. These requests must be approved by Admins, based on the configured voting threshold. For a detailed explanation of the different roles and permission, refer to the [Roles & Permissions page](../setup/permissions.md).
+This section allows the Admin to manage the members of your treasury. The Admin can create a request to add new members, edit existing members’ roles, or remove members. These requests must be approved by Admins, based on the configured voting threshold. For a detailed explanation of the different roles and permission, refer to the [Roles & Permissions page](setup/permissions.md).
 
 <div class="screenshot">
 <img src="/img/settings/members.png" width="90%" alt="members" />
@@ -60,8 +60,8 @@ To add members to your treasury:
 2.  Select the **`Members`** tab.
 3.  Click the **`+ Add Members`** button.
 4.  Enter the NEAR wallet address of the new member.
-5.  Choose the member's role(s): [**`Requestor`**](../setup/permissions.md#1-requestor), [**`Approver`**](../setup/permissions.md#2-approver), or [**`Admin`**](../setup/permissions.md#3-admin).  You can select multiple roles for a member.
-    - See [Roles & Permissions](../setup/permissions.md) for a detailed explanation of each role.
+5.  Choose the member's role(s): [**`Requestor`**](setup/permissions.md#1-requestor), [**`Approver`**](setup/permissions.md#2-approver), or [**`Admin`**](setup/permissions.md#3-admin).  You can select multiple roles for a member.
+    - See [Roles & Permissions](setup/permissions.md) for a detailed explanation of each role.
 6.  Click the **`Save`** button and confirm the transactions.
 7.  Go to the **`Requests`** page to [approve the request](#pending-requests).
 
@@ -158,7 +158,7 @@ The **`System Update`** section allows Admins to review, approve, and apply pend
 NEAR Treasury developers push updates such as contract upgrades, policy changes, or instance app widget changes to provide new features, fix bugs, and improve the user experience.
 
 :::info
-For details on [Update Types](../help/sys-update.md#update-types) and the system update mechanism, [visit this page](../help/sys-update.md).
+For details on [Update Types](help/sys-update.md#update-types) and the system update mechanism, [visit this page](help/sys-update.md).
 :::
 
 ### Reviewing System Updates
@@ -178,5 +178,5 @@ To review and vote on pending updates:
 </div>
 
 :::info Policy updates
-After an Administrator accepts a system [policy update](../help/sys-update.md#update-types), you will see a new request under [**`Pending requests`**](#pending-requests), and Treasury users will need to vote on it.
+After an Administrator accepts a system [policy update](help/sys-update.md#update-types), you will see a new request under [**`Pending requests`**](#pending-requests), and Treasury users will need to vote on it.
 :::

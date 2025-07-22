@@ -1,12 +1,6 @@
 {
   "position": 4,
-  "label": "Treasury Management",
+  "label": "Asset Management",
   "collapsible": true,
   "collapsed": true,
-  "link": {
-    "type": "generated-index",
-    "slug": "user-guide",
-    "title": "Treasury Management",
-    "description": "NEAR Treasury user guides for advanced features."
-  }
 }
