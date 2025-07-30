@@ -5,11 +5,22 @@ title: Latest Changes
 description: Latest changes and updates on NEAR Treasury.
 ---
 
-This page tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
+## Roadmap
+
+The NEAR Treasury team is working hard every day, simplifying the management of your treasury operations.
+We're excited to share [our roadmap](https://github.com/NEAR-DevHub/.github/issues/12) and offer you a glimpse of our upcoming new features!
+
+:::info
+To learn more about upcoming features and improvements, check out the [NEAR Treasury roadmap](https://github.com/NEAR-DevHub/.github/issues/12).
+:::
+
+---
+
+## Changelog
+
+This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
 ## Jul 21, 2025
-
-We're excited to share a fresh set of new features! The NEAR Treasury team has been hard at work making it even easier to manage your treasury operations.
   
 **What’s New ✨**
   
@@ -26,3 +37,5 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 :::
 
 Try out these new features and let us know what you think – more improvements are on the way! 🚀
+
+---
