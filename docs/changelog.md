@@ -44,11 +44,11 @@ Try out these new features and let us know what you think – more improvements 
 
 **What’s New ✨**
 
-- 🔐 [Lockups](#): Now you can create and manage accounts with specific vesting conditions, such as grants. You can also directly manage your lockup accounts within NEAR Treasury, including staking, payment requests, and withdrawals.
+- 🔐 [Lockups](management/lockup.md): Now you can create and manage accounts with specific vesting conditions, such as grants. You can also directly manage your lockup accounts within NEAR Treasury, including staking, payment requests, and withdrawals.
 
-- ↕️ [Asset Exchange](#): Swap different assets using multisig approvals.
+- ↕️ [Asset Exchange](management/asset-exchange.md): Swap different assets using multi-signature approvals.
 
-- 🔁 [BOS Gateway Switching](#): Easily switch between your BOS gateways so you can access your treasury in your preferred way.
+- 🔁 BOS Gateway Switching: Easily switch between your BOS gateways so you can access your treasury in your preferred way.
 
 Try out these new features and please let us know what you think. We have more improvements coming soon!
 
