@@ -20,7 +20,7 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
-## Jul 21, 2025
+## July 21, 2025
   
 **What’s New ✨**
   
@@ -37,5 +37,31 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 :::
 
 Try out these new features and let us know what you think – more improvements are on the way! 🚀
+
+---
+
+## June 3, 2025
+
+**What’s New ✨**
+
+- 🔐 [Lockups](#): Now you can create and manage accounts with specific vesting conditions, such as grants. You can also directly manage your lockup accounts within NEAR Treasury, including staking, payment requests, and withdrawals.
+
+- ↕️ [Asset Exchange](#): Swap different assets using multisig approvals.
+
+- 🔁 [BOS Gateway Switching](#): Easily switch between your BOS gateways so you can access your treasury in your preferred way.
+
+Try out these new features and please let us know what you think. We have more improvements coming soon!
+
+---
+
+## April 10, 2025
+
+**What’s New ✨**
+
+- 🛡 Security update for NEAR Treasury: SputnikDAO V2 just passed a full audit with no critical findings. Same contract, verified stronger.
+
+- 🚨 No more starting over on NEAR Treasury: You can now save your Treasury setup as a draft and finish it whenever.
+
+- 📂 One overview to see every DAO you’re in — not just NEAR Treasury. Less friction. More flow.
 
 ---
