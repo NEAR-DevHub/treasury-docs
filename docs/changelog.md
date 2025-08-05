@@ -36,8 +36,6 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 We strongly recommend using the Web4 Gateway for managing your treasury. It ensures you're always on the latest version with the best performance.
 :::
 
-Try out these new features and let us know what you think – more improvements are on the way! 🚀
-
 ---
 
 ## June 3, 2025
@@ -49,8 +47,6 @@ Try out these new features and let us know what you think – more improvements 
 - ↕️ [Asset Exchange](management/asset-exchange.md): Swap different assets using multi-signature approvals.
 
 - 🔁 BOS Gateway Switching: Easily switch between your BOS gateways so you can access your treasury in your preferred way.
-
-Try out these new features and please let us know what you think. We have more improvements coming soon!
 
 ---
 
