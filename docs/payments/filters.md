@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
-sidebar_label: "Payments"
-title: Payments
-description: Core features for managing your treasury's funds.
-keywords: [NEAR Treasury, Payments]
+sidebar_position: 3
+sidebar_label: "Payment Filters"
+title: Using Payment Filters
+description: Applying filters to manage your treasury's payments.
+keywords: [NEAR Treasury, Payments, Filters]
 ---
 
 ## Overview
@@ -49,7 +49,6 @@ Payment requests require approval from authorized team members. To review and vo
 1.  Navigate to the **`Payments`** section.
     
 2.  View the list of pending requests.
-    - _(Optional)_ [Apply filters](filters.md) to find the desired payments.
     
 3.  Review the details of each request.
     
@@ -80,10 +79,8 @@ To export payment transaction records to a `.csv` file:
 1.  Navigate to the **`Payments`** section.
     
 2.  Switch to the **`History`** tab.
-    - _(Optional)_ [Apply filters](filters.md) to find the payments you want to export.
     
 3.  Click the **`Export as CSV`** button.
-    - _(Optional)_ Select **`Filtered Requests Only`** when applying filters.
 
 
 <div class="screenshot">
