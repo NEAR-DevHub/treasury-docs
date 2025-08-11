@@ -64,21 +64,46 @@ Payment requests require approval from authorized team members. To review and vo
 
 ## Filtering Payment Requests
 
-<div class="screenshot">
-<img src="/img/payments/filter-1.png" width="100%" alt="Open payment filters" />
-</div>
+You can easily filter payment requests to find specific payments.
 
-<div class="screenshot">
-<img src="/img/payments/filter-2.png" width="60%" alt="Add payment filter" />
-</div>
+:::info Available filters
+- Creation Date
+- Status
+- Recipient
+- Token
+- Created by
+- Approver
+- My Vote status
+:::
 
-<div class="screenshot">
-<img src="/img/payments/filter-3.png" width="100%" alt="Apply payment filter" />
-</div>
+To filter payment requests:
 
-<div class="screenshot">
-<img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
-</div>
+1.  Navigate to the **`Payments`** section.
+    
+2.  Click on the **`Filter`** icon.
+
+    <div class="screenshot">
+    <img src="/img/payments/filter-1.png" width="100%" alt="Open payment filters" />
+    </div>
+
+3.  Select the filter that you want to add.
+
+    <div class="screenshot">
+    <img src="/img/payments/filter-2.png" width="60%" alt="Add payment filter" />
+    </div>
+
+4.  Add filters as needed.
+
+    <div class="screenshot">
+    <img src="/img/payments/filter-3.png" width="100%" alt="Apply payment filter" />
+    </div>
+
+5.  _(Optional)_ Export filtered results as CSV.
+    - Select **`Filtered Requests Only`** to export records to a `.csv` file.
+
+    <div class="screenshot">
+    <img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
+    </div>
 
 
 ## Viewing Payment Details
