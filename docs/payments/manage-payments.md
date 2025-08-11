@@ -50,7 +50,7 @@ Payment requests require approval from authorized team members. To review and vo
 1.  Navigate to the **`Payments`** section.
     
 2.  View the list of pending requests.
-    - _(Optional)_ [Apply filters](filters.md) to find the desired payments.
+    - _(Optional)_ [Apply filters](#filtering-payment-requests) to find the desired payments.
     
 3.  Review the details of each request.
     
@@ -100,7 +100,7 @@ To export payment transaction records to a `.csv` file:
 1.  Navigate to the **`Payments`** section.
     
 2.  Switch to the **`History`** tab.
-    - _(Optional)_ [Apply filters](filters.md) to find the payments you want to export.
+    - _(Optional)_ [Apply filters](#filtering-payment-requests) to find the payments you want to export.
     
 3.  Click the **`Export as CSV`** button.
     - _(Optional)_ Select **`Filtered Requests Only`** when applying filters.
