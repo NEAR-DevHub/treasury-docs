@@ -20,7 +20,8 @@ This section covers the core features for managing your treasury's funds.
 
 - [Creating Payment Requests](#creating-payment-requests)
 - [Approving or Rejecting Payment Requests](#approving-or-rejecting-payment-requests)
-- [View Payment Details](#view-payment-details)
+- [Filtering Payment Requests](#filtering-payment-requests)
+- [Viewing Payment Details](#viewing-payment-details)
 - [Exporting Payment Transactions](#exporting-payment-transactions)
 
 ---
@@ -61,7 +62,26 @@ Payment requests require approval from authorized team members. To review and vo
 
 </div>
 
-## View Payment Details
+## Filtering Payment Requests
+
+<div class="screenshot">
+<img src="/img/payments/filter-1.png" width="100%" alt="Open payment filters" />
+</div>
+
+<div class="screenshot">
+<img src="/img/payments/filter-2.png" width="60%" alt="Add payment filter" />
+</div>
+
+<div class="screenshot">
+<img src="/img/payments/filter-3.png" width="100%" alt="Apply payment filter" />
+</div>
+
+<div class="screenshot">
+<img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
+</div>
+
+
+## Viewing Payment Details
 
 You can view payment details by clicking on any item under the **`Pending Requests`** or **`History`** list.
 
