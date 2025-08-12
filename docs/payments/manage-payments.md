@@ -128,7 +128,7 @@ To search and find payment requests:
     - Select **`Filtered Requests Only`** to export records to a `.csv` file.
 
     <div class="screenshot">
-    <img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
+    <img src="/img/payments/filter-export.png" width="100%" alt="Export payment requests" />
     </div>
 
 ## Viewing Payment Details
