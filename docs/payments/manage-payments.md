@@ -21,6 +21,7 @@ This section covers the core features for managing your treasury's funds.
 - [Creating Payment Requests](#creating-payment-requests)
 - [Approving or Rejecting Payment Requests](#approving-or-rejecting-payment-requests)
 - [Filtering Payment Requests](#filtering-payment-requests)
+- [Searching Payment Requests](#searching-payment-requests)
 - [Viewing Payment Details](#viewing-payment-details)
 - [Exporting Payment Transactions](#exporting-payment-transactions)
 
@@ -67,13 +68,7 @@ Payment requests require approval from authorized team members. To review and vo
 You can easily filter payment requests to find specific payments.
 
 :::info Available filters
-- Creation Date
-- Status
-- Recipient
-- Token
-- Created by
-- Approver
-- My Vote status
+- `Creation Date`, `Status`, `Recipient`, `Token`, `Created by`, `Approver`, `My Vote status`
 :::
 
 To filter payment requests:
@@ -105,6 +100,36 @@ To filter payment requests:
     <img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
     </div>
 
+## Searching Payment Requests
+
+You can search for keywords on your payment requests to find specific payments.
+
+:::info Available search fields
+- Search by `ID`, `Title`, `Summary`
+:::
+
+To search and find payment requests:
+
+1.  Navigate to the **`Payments`** section.
+    
+2.  Click on the **`Search`** text box.
+
+    <div class="screenshot">
+    <img src="/img/payments/search-1.png" width="100%" alt="Search payment requests" />
+    </div>
+
+3.  Type the words that you want to search.
+
+    <div class="screenshot">
+    <img src="/img/payments/search-2.png" width="100%" alt="Add payment filter" />
+    </div>
+
+4.  _(Optional)_ Export results as CSV.
+    - Select **`Filtered Requests Only`** to export records to a `.csv` file.
+
+    <div class="screenshot">
+    <img src="/img/payments/filter-export.png" width="100%" alt="Export filtered payment requests" />
+    </div>
 
 ## Viewing Payment Details
 
