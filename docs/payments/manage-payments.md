@@ -63,6 +63,10 @@ Payment requests require approval from authorized team members. To review and vo
 
 </div>
 
+:::tip
+You can sort payment requests by date by clicking on `Created Date`. (Ascending or descending order)
+:::
+
 ## Filtering Payment Requests
 
 You can easily filter payment requests to find specific payments.

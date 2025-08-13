@@ -76,6 +76,11 @@ Asset exchange actions require approval from authorized team members. To review 
 
 </div>
 
+:::tip
+You can sort exchange requests by date by clicking on `Created Date`. (Ascending or descending order)
+:::
+
+
 ## Exporting Asset Exchange Transactions
 
 To export asset exchange transaction records to a `.csv` file:

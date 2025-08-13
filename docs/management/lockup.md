@@ -60,6 +60,10 @@ Lockup actions require approval from authorized team members. To review and vote
 
 </div>
 
+:::tip
+You can sort lockup requests by date by clicking on `Created At`. (Ascending or descending order)
+:::
+
 ## Exporting Lockup Transactions
 
 To export lockup transaction records to a `.csv` file:

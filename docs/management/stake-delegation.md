@@ -101,6 +101,10 @@ Stake actions require approval from authorized team members. To review and vote 
 
 </div>
 
+:::tip
+You can sort staking requests by date by clicking on `Created Date`. (Ascending or descending order)
+:::
+
 ## Managing Lockup Accounts
 
 If your treasury has any funds in lockup accounts, you can monitor and manage them in the `Lockups` section. This includes viewing the lockup period, checking the balance, and initiating withdrawals when funds are released.
