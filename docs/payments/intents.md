@@ -69,7 +69,7 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
 ### How to Make a Deposit
 
 1. **Access Deposit Interface**
-   - Click the green **`Deposit`** button in the Total Balance card
+   - Click the **`Deposit`** button in the Total Balance card
 
 2. **Select NEAR Intents**
    - Click on the **`Intents`** button to access cross-chain deposits
