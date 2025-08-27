@@ -84,7 +84,7 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
 
 <div class="screenshot">
 
-![Dashboard with NEAR Intents](/img/intents/dashboard.png)
+![Dashboard with NEAR Intents](/img/intents/deposit.png)
 
 </div>
 
@@ -93,7 +93,7 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
    - This shows all supported assets and networks
 
 <div class="screenshot">
-<img alt="Network Selection Dropdown" src="/img/intents/net-select.png" width="60%" />
+<img alt="Network Selection Dropdown" src="/img/intents/net-select.png" width="70%" />
 </div>
 
 3. **Select Asset and Network**
