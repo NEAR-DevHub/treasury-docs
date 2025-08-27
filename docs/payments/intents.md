@@ -126,9 +126,12 @@ Follow the regular process to [create a payment request](../payments/manage-paym
    - Navigate to the **`Payments`** section
    - Select **`Create Request`**
 
-2. **Configure Payment Details**
+2. **Set the Treasury Wallet**
+   - Select **`NEAR Intents`**
+
+3. **Configure Payment Details**
+   - **Requested Token**: Choose from available Intents assets
    - **Recipient**: Enter the destination address
-   - **Asset**: Choose from available treasury assets
    - **Amount**: Specify the payment amount
    - **Description**: Add context for the payment
 
@@ -142,7 +145,7 @@ Follow the regular process to [create a payment request](../payments/manage-paym
    - Network-specific validation prevents errors
 :::
 
-3. **Submit for Approval**
+4. **Submit for Approval**
    - Payment requests follow standard DAO governance processes
    - Council members vote on approval
    - Approved payments are executed automatically
