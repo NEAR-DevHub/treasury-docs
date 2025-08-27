@@ -92,10 +92,6 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
    - Click on the **`NEAR Intents`** tab to access cross-chain deposits
    - This shows all supported assets and networks
 
-<div class="screenshot">
-<img alt="Network Selection Dropdown" src="/img/intents/net-select.png" width="70%" />
-</div>
-
 3. **Select Asset and Network**
    - Browse available assets or use the search function
    - Select the blockchain network (displayed with human-readable names)
@@ -107,7 +103,7 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
    - Copy the address or scan the QR code with your wallet
 
 <div class="screenshot">
-<img alt="Bitcoin Deposit" src="/img/intents/btc-deposit.png" width="60%" />
+<img alt="Network Selection Dropdown" src="/img/intents/net-select.png" width="70%" />
 </div>
 
 5. **Complete the Deposit**
