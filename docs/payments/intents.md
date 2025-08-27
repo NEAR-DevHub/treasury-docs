@@ -136,12 +136,14 @@ Follow the regular process to [create a payment request](../payments/manage-paym
 3. **Configure Payment Details**
    - **Requested Token**: Choose from available Intents assets
    - **Recipient**: Enter the destination address
+     - 💡 _The recipient address should be of the chain where the token is. E.g., if the selected token is BTC on the Bitcoin blockchain, then the recipient should also be a Bitcoin chain address._
    - **Amount**: Specify the payment amount
    - **Description**: Add context for the payment
 
 <div class="screenshot">
 <img alt="BTC Payment Request" src="/img/intents/btc-payment.png" width="40%" />
 </div>
+<br />
 
 :::info Address Validation
    - The system validates recipient addresses for the selected network
@@ -153,6 +155,12 @@ Follow the regular process to [create a payment request](../payments/manage-paym
    - Payment requests follow standard DAO governance processes
    - Council members vote on approval
    - Approved payments are executed automatically
+
+
+<div class="screenshot">
+<img alt="Payment Executed" src="/img/intents/payment-executed.jpg" width="70%" />
+</div>
+
 
 ## Troubleshooting
 
