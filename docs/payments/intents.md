@@ -47,26 +47,20 @@ The NEAR Intents dashboard integrates seamlessly into the Treasury Dashboard, pr
 
 ### Supported Networks
 
-| Display Name | Technical ID | Assets Supported |
-|--------------|-------------|------------------|
-| ETH | eth:1 | USDC, USDT, WETH, AAVE, UNI |
-| BTC | btc:mainnet | BTC |
-| SOL | sol:mainnet | SOL, USDC |
-| BASE | eth:8453 | USDC, BRETT, DEGEN |
-| ARB | eth:42161 | USDC, GMX, ARB |
-| NEAR | near:mainnet | wNEAR, REF, AURORA |
-| XRP | xrp:mainnet | XRP |
-| TRON | tron:mainnet | TRX, USDT |
+The system supports a wide range of blockchain networks like ETH (`eth:1`), BTC  (`btc:mainnet`), SOL  (`sol:mainnet`), BASE  (`eth:8453`), ARB  (`eth:42161`), NEAR  (`near:mainnet`), XRP  (`xrp:mainnet`), and TRON  (`tron:mainnet`).
+
+:::info
+For a complete list of supported chains and assets, [check this page](https://docs.near-intents.org/near-intents/chain-address-support).
+:::
 
 ### Supported Assets
 
-The system supports a wide range of assets including:
+The system supports a wide range of assets, including:
 - **Native tokens**: ETH, BTC, SOL, XRP, TRX
 - **Stablecoins**: USDC, USDT, DAI
 - **DeFi tokens**: AAVE, UNI, COMP
 - **NEAR ecosystem**: wNEAR, REF, AURORA
 - **Memecoins**: SHITZU, PEPE, DOGE
-
 
 ## Making Deposits
 
