@@ -80,17 +80,16 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
 
 1. **Access Deposit Interface**
    - Click the green **`Deposit`** button in the Total Balance card
-   - The deposit modal will open with asset selection
+
+2. **Select NEAR Intents**
+   - Click on the **`Intents`** button to access cross-chain deposits
+   - This shows all supported assets and networks
 
 <div class="screenshot">
 
 ![Dashboard with NEAR Intents](/img/intents/deposit.png)
 
 </div>
-
-2. **Switch to NEAR Intents Tab**
-   - Click on the **`NEAR Intents`** tab to access cross-chain deposits
-   - This shows all supported assets and networks
 
 3. **Select Asset and Network**
    - Browse available assets or use the search function
