@@ -130,7 +130,7 @@ Follow the regular process to [create a payment request](../payments/manage-paym
 3. **Configure Payment Details**
    - **Requested Token**: Choose from available Intents assets
    - **Recipient**: Enter the destination address
-     - 💡 _The recipient address should be of the chain where the token is. E.g., if the selected token is BTC on the Bitcoin blockchain, then the recipient should also be a Bitcoin chain address._
+     - 💡 _The recipient address should belong to the same chain as the token. E.g., if the selected token is BTC on the Bitcoin blockchain, then the recipient should also be a Bitcoin chain address._
    - **Amount**: Specify the payment amount
    - **Description**: Add context for the payment
 
