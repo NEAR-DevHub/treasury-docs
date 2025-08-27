@@ -35,9 +35,11 @@ To create a new payment request:
     
 2.  Click the **`Create Request`** button.
     
-3.  Fill in the required details, such as the recipient's wallet address, the amount to send, and any relevant notes.
+3.  Select the **`SputnikDAO`** Treasury Wallet.
     
-4.  Submit the request for approval.
+4.  Fill in the required details, such as the recipient's wallet address, the amount to send, and any relevant notes.
+    
+5.  Submit the request for approval.
 
 <div class="screenshot">
 <img src="/img/payments/create.png" width="40%" alt="Create payment request" />
