@@ -150,8 +150,7 @@ Follow the regular process to [create a payment request](../payments/manage-paym
    - Council members vote on approval
    - Approved payments are executed automatically
 
-5. **Payment is Executed**
-   - Once the payment is approved and executed successfully, the user can seen the transaction links in the proposal details page.
+   - Once the payment is approved and executed successfully, the user can see the transaction links in the proposal details page.
 
 <div class="screenshot">
 <img alt="Payment Executed" src="/img/intents/payment-executed.jpg" width="70%" />
