@@ -97,15 +97,23 @@ NEAR Intents supports deposits from multiple blockchain networks into your DAO t
    - QR codes are automatically generated for easy mobile wallet scanning
    - Copy the address or scan the QR code with your wallet
 
+:::info
+The deposit address might change, so always get the latest deposit address before making a new transaction.
+:::
+
 <div class="screenshot">
 <img alt="Network Selection Dropdown" src="/img/intents/net-select.png" width="70%" />
 </div>
 
 5. **Complete the Deposit**
+
    - Send your assets to the provided address
    - Deposits are processed automatically through the bridge infrastructure
    - Assets appear in your dashboard once confirmed on the source network
 
+:::tip
+We recommend starting with a small test transaction to ensure everything works correctly before sending the full amount.
+:::
 
 ## Creating Payment Requests
 
