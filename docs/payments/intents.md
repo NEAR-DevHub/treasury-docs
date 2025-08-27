@@ -8,10 +8,6 @@ description: NEAR Intents User Guide.
 
 NEAR Intents is a powerful feature of the Treasury Dashboard that enables cross-chain asset management and payment processing. This system allows DAOs to receive deposits from multiple blockchain networks and create payment requests for various cryptocurrencies while maintaining assets in a unified interface.
 
-:::info
-NEAR Intents is currently available on selected treasuries. If you'd like to enable this feature on your Treasury, please [contact the support team](../help/support.md).
-:::
-
 <div class="screenshot">
 
 ![Dashboard with NEAR Intents](/img/intents/dashboard.png)
@@ -34,7 +30,7 @@ The NEAR Intents dashboard integrates seamlessly into the Treasury Dashboard, pr
 
 1. **Total Balance Card**:
    - Displays aggregate USD value including NEAR Intents assets
-   - Features a green **`Deposit`** button for new deposits
+   - Features a **`Deposit`** button for new deposits
    - Updates automatically when Intents balances change
 
 2. **NEAR Intents Section**:
