@@ -34,11 +34,11 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What’s New ✨**
 
-- Filter Support for Payments
-- 1Click API UI for Asset Exchange
-- Improve "Create Asset Exchange Request" Modal
-- Improve payment details page and table view for intents payment
-- Filter Support for Stake delegation
+- Filter Support for Payments: filter by creation date, approvals, vote status, recipient, and requested tokens.
+- 1Click API UI for Asset Exchange: a new user interface allows Treasury managers to use the 1Click API for cross-network swaps directly from the Asset Exchange interface.
+- Improve `Create Asset Exchange Request` Modal.
+- Improve payment details page and table view for NEAR Intents payments.
+- Filter Support for Stake delegation: filter by amount, type (stake/unstake/withdraw/whitelist), and validator.
 
 **Bug Fixes 🐛**
 
