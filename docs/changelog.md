@@ -20,8 +20,34 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
-## July 21, 2025
-  
+## September 2025
+
+**What’s New ✨**
+
+- Implemented a new design flow for NEAR Intents deposits.
+- Updated Deposit modal: improved the Deposit UI so users understand the difference between Sputnik DAO and NEAR Intents.
+- Display FT lockup portfolio in the Dashboard: when users have a FT lockup attached to their treasury, it's presented in the Dashboard page.
+
+---
+
+## August 2025
+
+**What’s New ✨**
+
+- [Filter Support for Payments](payments/manage-payments.md#filtering-payment-requests): filter by creation date, approvals, vote status, recipient, and requested tokens.
+- 1Click API UI for Asset Exchange: a new user interface allows Treasury managers to use the 1Click API for cross-network swaps directly from the Asset Exchange interface.
+- Improved the [Create Asset Exchange Request](management/asset-exchange.md#creating-asset-exchange-requests) Modal.
+- Improved the payment details page and table view for NEAR Intents payments.
+- Filter Support for Stake delegation: filter by amount, type (`stake`/`unstake`/`withdraw`/`whitelist`), and validator.
+
+**Bug Fixes 🐛**
+
+- Prevent approval of proposals that have passed the 1Click API quote deadline.
+
+---
+
+## July 2025
+
 **What’s New ✨**
   
 - 📥 [Bulk Payment Import](payments/bulk-import.md): ​​Upload multiple payment requests in one go using our Google Sheet template. Great for handling contributor payouts, grant rounds, and large payment sets.
@@ -38,7 +64,7 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ---
 
-## June 3, 2025
+## June 2025
 
 **What’s New ✨**
 
@@ -50,7 +76,7 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ---
 
-## April 10, 2025
+## April 2025
 
 **What’s New ✨**
 
