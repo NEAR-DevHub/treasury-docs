@@ -24,11 +24,20 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What’s New ✨**
 
+- Update Deposit modal
+- Implement the new design flow for near intents deposit
+- Display FT lockup portfolio in dashboard
+
 ---
 
 ## August 2025
 
 **What’s New ✨**
+
+- Filter Support for Payments
+- 1Click API UI for Asset Exchange
+- Improve "Create Asset Exchange Request" Modal
+- Filter Support for Stake delegation
 
 ---
 
