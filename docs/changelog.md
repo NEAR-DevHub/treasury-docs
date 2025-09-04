@@ -24,9 +24,9 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What’s New ✨**
 
-- Update Deposit modal
-- Implement the new design flow for near intents deposit
-- Display FT lockup portfolio in dashboard
+- Implemented a new design flow for NEAR Intents deposits.
+- Updated Deposit modal: improved the Deposit UI so users understand the difference between Sputnik DAO and NEAR Intents.
+- Display FT lockup portfolio in the Dashboard: when users have a FT lockup attached to their treasury, it's presented in the Dashboard page.
 
 ---
 
@@ -37,7 +37,12 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 - Filter Support for Payments
 - 1Click API UI for Asset Exchange
 - Improve "Create Asset Exchange Request" Modal
+- Improve payment details page and table view for intents payment
 - Filter Support for Stake delegation
+
+**Bug Fixes 🐛**
+
+- Prevent approval of proposals that have passed the 1Click API quote deadline.
 
 ---
 
