@@ -20,8 +20,20 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
-## July 21, 2025
-  
+## September 2025
+
+**What’s New ✨**
+
+---
+
+## August 2025
+
+**What’s New ✨**
+
+---
+
+## July 2025
+
 **What’s New ✨**
   
 - 📥 [Bulk Payment Import](payments/bulk-import.md): ​​Upload multiple payment requests in one go using our Google Sheet template. Great for handling contributor payouts, grant rounds, and large payment sets.
@@ -38,7 +50,7 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ---
 
-## June 3, 2025
+## June 2025
 
 **What’s New ✨**
 
@@ -50,7 +62,7 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ---
 
-## April 10, 2025
+## April 2025
 
 **What’s New ✨**
 
