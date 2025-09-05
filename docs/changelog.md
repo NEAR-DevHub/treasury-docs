@@ -34,11 +34,12 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What’s New ✨**
 
-- [Filter Support for Payments](payments/manage-payments.md#filtering-payment-requests): filter by creation date, approvals, vote status, recipient, and requested tokens.
+- [NEAR Intents support](payments/intents.md): the NEAR Treasury integration with [NEAR Intents](https://near-intents.org/) has been successfully completed. Now Sputnik-DAO treasuries can execute simple cross-network token swaps via NEAR Intents.
+- [Filter support for Payments](payments/manage-payments.md#filtering-payment-requests): filter by creation date, approvals, vote status, recipient, and requested tokens.
 - 1Click API UI for Asset Exchange: a new user interface allows Treasury managers to use the 1Click API for cross-network swaps directly from the Asset Exchange interface.
 - Improved the [Create Asset Exchange Request](management/asset-exchange.md#creating-asset-exchange-requests) Modal.
-- Improved the payment details page and table view for NEAR Intents payments.
-- Filter Support for Stake delegation: filter by amount, type (`stake`/`unstake`/`withdraw`/`whitelist`), and validator.
+- Improved the payment details page and table view for [NEAR Intents payments](payments/intents.md).
+- Filter support for Stake delegation: filter by amount, type (`stake`/`unstake`/`withdraw`/`whitelist`), and validator.
 
 **Bug Fixes 🐛**
 
