@@ -22,42 +22,37 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 ## September 2025
 
-**What’s New ✨**
+**What's New ✨**
 
 - Implemented a new design flow for [NEAR Intents deposits](payments/intents.md#making-deposits).
 - Updated Deposit modal: improved the Deposit UI so users understand the difference between Sputnik DAO and NEAR Intents.
-- [Display FT lockup portfolio in the Dashboard](dashboard.md#lockup-optional): when users have a FT lockup attached to their treasury, it's presented in the Dashboard page.
+- [Display FT lockup portfolio in the Dashboard](dashboard.md#lockup-optional): when users have a FT lockup attached to their treasury, it's presented in the Dashboard page, contact the support team to get started.
 
 ---
 
 ## August 2025
 
-**What’s New ✨**
+**What's New ✨**
 
-- [NEAR Intents support](payments/intents.md): the NEAR Treasury integration with [NEAR Intents](https://near-intents.org/) has been successfully completed. Now Sputnik-DAO treasuries can execute simple cross-network token swaps via NEAR Intents.
+- [NEAR Intents support](payments/intents.md): the NEAR Treasury integration with [NEAR Intents](https://near-intents.org/) has been successfully completed. Now Sputnik-DAO treasuries can execute simple cross-network token payments via NEAR Intents.
 - [Filter support for Payments](payments/manage-payments.md#filtering-payment-requests): filter by creation date, approvals, vote status, recipient, and requested tokens.
-- 1Click API UI for Asset Exchange: a new user interface allows Treasury managers to use the 1Click API for cross-network swaps directly from the Asset Exchange interface.
-- Improved the [Create Asset Exchange Request](management/asset-exchange.md#creating-asset-exchange-requests) Modal.
+- Enhanced the [Create Asset Exchange Request](management/asset-exchange.md#creating-asset-exchange-requests) Modal with improved validation and user experience.
 - Improved the payment details page and table view for [NEAR Intents payments](payments/intents.md).
 - Filter support for Stake delegation: filter by amount, type (`stake`/`unstake`/`withdraw`/`whitelist`), and validator.
-
-**Bug Fixes 🐛**
-
-- Prevent approval of proposals that have passed the 1Click API quote deadline.
 
 ---
 
 ## July 2025
 
-**What’s New ✨**
-  
-- 📥 [Bulk Payment Import](payments/bulk-import.md): ​​Upload multiple payment requests in one go using our Google Sheet template. Great for handling contributor payouts, grant rounds, and large payment sets.
+**What's New ✨**
+
+- 📥 [Bulk Payment Import](payments/bulk-import.md): Upload multiple payment requests in one go using our Google Sheet template. Great for handling contributor payouts, grant rounds, and large payment sets.
 
 - 👥 [Batch Member Management](settings.md#members): Admins can now add, edit, or remove multiple members in a single request. No more repetitive approvals for each change.
 
 - 🤝 [NEARN Integration](https://docs.nearn.io/sponsor/treasury): You can now connect your [NEARN](https://nearn.io/) sponsor account directly to your treasury, making it easy to manage the entire contributor reward workflow – from approved submission to on-chain payments.
 
-- ⚙️ [System Upgrades](settings.md#system-updates): We’ve rolled out background upgrades to all treasuries – including a switch to FastNEAR RPC and improved Web4 caching. You should notice faster load times and a more reliable experience. We’ve also built a scalable system update framework to support future contract and UI upgrades when needed.
+- ⚙️ [System Upgrades](settings.md#system-updates): We've rolled out background upgrades to all treasuries – including a switch to FastNEAR RPC and improved Web4 caching. You should notice faster load times and a more reliable experience. We've also built a scalable system update framework to support future contract and UI upgrades when needed.
 
 :::tip
 We strongly recommend using the Web4 Gateway for managing your treasury. It ensures you're always on the latest version with the best performance.
@@ -67,7 +62,7 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ## June 2025
 
-**What’s New ✨**
+**What's New ✨**
 
 - 🔐 [Lockups](management/lockup.md): Now you can create and manage accounts with specific vesting conditions, such as grants. You can also directly manage your lockup accounts within NEAR Treasury, including staking, payment requests, and withdrawals.
 
@@ -79,12 +74,12 @@ We strongly recommend using the Web4 Gateway for managing your treasury. It ensu
 
 ## April 2025
 
-**What’s New ✨**
+**What's New ✨**
 
 - 🛡 Security update for NEAR Treasury: SputnikDAO V2 just passed a full audit with no critical findings. Same contract, verified stronger.
 
-- 🚨 No more starting over on NEAR Treasury: You can now save your Treasury setup as a draft and finish it whenever.
+- 💾 No more starting over on NEAR Treasury: You can now save your Treasury setup as a draft and finish it whenever.
 
-- 📂 One overview to see every DAO you’re in — not just NEAR Treasury. Less friction. More flow.
+- 📂 One overview to see every DAO you're in — not just NEAR Treasury. Less friction. More flow.
 
 ---
