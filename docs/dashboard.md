@@ -62,7 +62,7 @@ The Treasury **NEAR Lockup** account shown in the Dashboard is not related to th
 
 ## FT Lockup (Optional)
 
-If your treasury has a custom Fungible Token (FT) lockup account, this section displays the balance of tokens held within the FT lockup contract. You'll be able to claim available funds, and see details about the FT lockup period and any staking activity associated with those tokens.
+If your treasury has a custom Fungible Token (FT) lockup account, this section displays the balance of tokens held within the FT lockup contract. You'll be able to claim available funds, and see details about the FT lockup period.
 
 <div class="screenshot">
 <img src="/img/dashboard/ftlockup.png" width="50%" alt="treasury FT lockup" />
