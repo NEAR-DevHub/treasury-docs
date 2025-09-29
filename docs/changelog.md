@@ -24,8 +24,8 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What's New ✨**
 
-- Enhanced Asset Exchange display:
-  - USD values, network info, and NEAR Intents integration.
+- Asset Exchange for NEAR Intents leveraging the OneClick API:
+  - Shows info about USD values, network info, and more.
 - Improved OneClick Exchange loading and error states.
 - Added support to look for FT lockups deployed using Lockup factory.
 - Added historical balance for NEAR Intents.
