@@ -25,7 +25,9 @@ The NEAR Treasury dashboard provides a centralized overview of your treasury's f
 
     - **Pending Release:** For lockup accounts, this shows the amount of tokens scheduled to be released soon.
 
-    - [**Lockup Balances (if applicable)**](#lockup-optional)
+    - [**NEAR Lockup Balances**](#near-lockup-optional) _(if applicable)_
+
+    - [**FT Lockup Balances**](#ft-lockup-optional) _(if applicable)_
 
 -  **Transaction History:** This section provides a detailed record of all incoming and outgoing transactions. You can filter and sort transactions by date, type (payment, staking, exchange), and token. Click on individual transactions to view more details.
     
@@ -60,9 +62,13 @@ The Treasury **NEAR Lockup** account shown in the Dashboard is not related to th
 
 ## FT Lockup (Optional)
 
+If your treasury has a custom Fungible Token (FT) lockup account, this section displays the balance of tokens held within the FT lockup contract. You'll be able to claim available funds, and see details about the FT lockup period and any staking activity associated with those tokens.
+
 <div class="screenshot">
-<img src="/img/dashboard/ftlockup.png" width="50%" alt="treasury lockup" />
+<img src="/img/dashboard/ftlockup.png" width="50%" alt="treasury FT lockup" />
 </div>
+
+<br />
 
 - **Original Allocated Amount:** The total number of tokens assigned to you in this vesting schedule.
   - **Unreleased:** Tokens that are still locked and not yet available to claim under your vesting schedule.
@@ -73,3 +79,16 @@ The Treasury **NEAR Lockup** account shown in the Dashboard is not related to th
 - **Release Interval:** The time period between each payout.
 - **Next Claim Date:** The next date when tokens will be available to claim.
 
+### Claiming FT tokens
+
+If you have FT tokens available to claim:
+    
+1.  Navigate to the **`Dashboard`** section.
+    
+2.  Click the **`Claim`** button under the **`Lockup`** sidebar.
+    
+3.  Confirm the transaction to claim your tokens.
+    
+<div class="screenshot">
+<img src="/img/dashboard/ftlockup-claim.png" width="50%" alt="treasury lockup claim" />
+</div>
