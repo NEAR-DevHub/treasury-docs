@@ -31,7 +31,7 @@ The NEAR Treasury dashboard provides a centralized overview of your treasury's f
     
 -   **Charts and Graphs:** Visual representations of your treasury's activity over time are displayed in this section. You can interact with these charts to adjust the timeframe and see how your treasury's value has fluctuated. This helps you identify trends and make informed decisions about your finances .
 
-## Lockup (Optional)
+## NEAR Lockup (Optional)
 
 If your treasury has a lockup account, this section displays the balance of tokens held within the lockup contracts. You'll be able to see details about the lockup period and any staking activity associated with those funds.
 
@@ -48,7 +48,12 @@ The Treasury **Lockup** account shown in the Dashboard is not related to the [Lo
 - **Start date:** The date when the vesting period for the lockup account began.
 - **End date:** The date when the vesting period for the lockup account will end.
 - **Original allocated amount:** The total amount of tokens initially allocated to the lockup account.
+  - **Vested:** The portion of the original allocated amount that has become available for payments use according to the vesting schedule. _(This amount may or may not have already been used)_
+  - **Unvested:** The portion of the original allocated amount that is still locked and will become available gradually according to the vesting schedule.
 - **Available balance:** Amount of tokens spendable now. These tokens can be used for payments or staking.
 - **Staking:** Amount of tokens currently staked.
+  - **Staked:** Tokens that are currently staked with validators to earn staking rewards. You can unstake any amount of your staked tokens.
+  - **Pending Release:** Tokens that have been unstaked and are now within a 48-hour waiting period before they become available for withdrawal.
+  - **Available for withdrawal:** Tokens that have been unstaked and finished the 48-hour waiting period.
 - **Locked:** Tokens that are currently restricted by the vesting schedule and cannot be used for payments until they become vested. These tokens can only be staked.
 - **Reserved for storage:** A small amount of tokens required to maintain the account active and cover the storage costs.
