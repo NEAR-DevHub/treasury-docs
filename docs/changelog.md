@@ -32,7 +32,7 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 - Intelligent token decimal display formatting across the Treasury dashboard.
 - Implemented a new design flow for [NEAR Intents deposits](payments/intents.md#making-deposits).
 - Updated Deposit modal: improved the Deposit UI so users understand the difference between Sputnik DAO and NEAR Intents.
-- [Display FT lockup portfolio in the Dashboard](dashboard.md#lockup-optional): when users have a FT lockup attached to their treasury, it's presented in the Dashboard page. [Contact the support team](help/support.md) to get started.
+- [Display FT lockup portfolio in the Dashboard](dashboard.md#ft-lockup-optional): when users have a FT lockup attached to their treasury, it's presented in the Dashboard page. [Contact the support team](help/support.md) to get started.
 
 **Bug Fixes 🐛**
 
