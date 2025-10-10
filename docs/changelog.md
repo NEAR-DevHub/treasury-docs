@@ -24,6 +24,15 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What's New ✨**
 
+- Updated Wallet selector, adding new wallet providers.
+- Added timezone selector and standardized dates across NEAR Treasury.
+- Added filter support to the Settings section: filter by proposal type, creation date, status, approver, and creator.
+
+
+**Bug Fixes 🐛**
+
+- Fixed: Vote buttons removed on expired NEAR Intents quotes.
+
 ---
 
 ## September 2025
