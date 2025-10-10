@@ -31,7 +31,7 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **Bug Fixes 🐛**
 
-- Fixed: Vote buttons removed on expired NEAR Intents quotes.
+- Fixed: Removed Vote buttons on expired NEAR Intents quotes.
 
 ---
 
