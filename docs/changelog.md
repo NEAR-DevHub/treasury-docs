@@ -20,6 +20,12 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
+## October 2025
+
+**What's New ✨**
+
+---
+
 ## September 2025
 
 **What's New ✨**
