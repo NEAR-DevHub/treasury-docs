@@ -20,6 +20,21 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
+## October 2025
+
+**What's New ✨**
+
+- Updated wallet selector in Web4 to the latest version. Added support for Intear, Hot, and NEAR Mobile wallets, and removed support for Here wallet.
+- Added a timezone selector in Settings → Preferences, allowing users to choose their timezone and time format, with standardized date displays across NEAR Treasury.
+- Added filter options in the Settings page — users can now filter by proposal type, creation date, status, approver, and creator.
+
+
+**Bug Fixes 🐛**
+
+- Fixed: Removed Vote buttons on expired NEAR Intents quotes.
+
+---
+
 ## September 2025
 
 **What's New ✨**
