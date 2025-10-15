@@ -14,11 +14,9 @@ Use a Custom Function Call to invoke any method on a NEAR account.
 
 It can target your DAO itself, another DAO, or any other contract. This mechanism lets you extend the DAO’s capabilities without editing the DAO contract — commonly by calling helper contracts that act as agents, proxies, oracles, or banking modules. Provide JSON arguments, set a gas limit (in Tgas), and optionally attach a deposit, then submit the request for multi‑sig approval.
 
-<div class="screenshot">
-
-![Custom Function Call](/img/screens/my-treasury.png)
-
-</div>
+::::info
+Custom Function Call is disabled by default. Contact the support team to enable it for your treasury. See [Support](../help/support.md).
+::::
 
 **Available actions:**
 
