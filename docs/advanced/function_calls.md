@@ -1,7 +1,7 @@
 ---
-sidebar_position: 6
-sidebar_label: Custom Function Call
-title: Custom Function Call
+sidebar_position: 5
+sidebar_label: Function Calls
+title: Function Calls
 description: Call any contract method via a multi‑sig proposal.
 ---
 
@@ -10,12 +10,12 @@ import TabItem from '@theme/TabItem';
 
 ## Overview
 
-This section covers how to use Custom Function Calls to interact directly with any smart contract on the NEAR network. This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
+This section covers how to use Function Calls to interact directly with any smart contract on the NEAR network. This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
 
-::::info
+::::warning
 **This is an advanced feature for technical users.**
 
-Creating a custom transaction is a powerful action. Mistakes, such as targeting the wrong contract or using incorrect arguments, can be irreversible. It is designed for users who are comfortable interacting directly with smart contracts. Please proceed with caution.
+Creating a custom transaction request is a powerful action. Mistakes, such as targeting the wrong contract or using incorrect arguments, can be irreversible. It is designed for users who are comfortable interacting directly with smart contracts. Please proceed with caution.
 ::::
 
 ::::info
@@ -34,7 +34,7 @@ This feature is disabled by default for security. To enable it for your treasury
 
 To create a request that calls a contract method:
 
-1.  Navigate to the **`Custom Proposals`** section.
+1.  Navigate to the **`Function Calls`** section.
 2.  Click the **`Create Request`** button.
 3.  Fill in the fields in the modal:
 
@@ -52,15 +52,15 @@ To create a request that calls a contract method:
     - **Deposit (NEAR)**: Optional NEAR to attach to the call when the method requires funds, e.g., storage or token transfers.
     - **Notes (optional)**: Additional context for reviewers.
 
+You can add multiple actions to the same proposal by clicking **Add another action**. All actions will execute in the listed order when the proposal is approved.
+
 4.  Submit the request for approval.
 
 <div class="screenshot">
 <img src="/img/custom/create.png" width="40%" alt="Create custom function call request" />
 </div>
 
-:::::info
-Double‑check the contract interface and argument schema before submitting. Incorrect method names or argument shapes will cause the transaction to fail at execution time.
-:::::
+Before submitting, double‑check the contract interface and argument schema. Incorrect method names or argument shapes will cause the transaction to fail at execution time.
 
 ---
 
@@ -68,8 +68,8 @@ Double‑check the contract interface and argument schema before submitting. Inc
 
 Custom function call requests require approval from authorized members according to your treasury thresholds. To review and vote on pending requests:
 
-1.  Navigate to the **`Custom Proposals`** section.
-2.  In the **`Pending Requests`** tab, locate the request and click **`Details`** to review the payload (contract, method, args, gas, deposit).
+1.  Navigate to the **`Function Calls`** section.
+2.  In the **`Pending Requests`** tab, locate the request and click **`Review Request`** to review the payload (contract, method, args, gas, deposit).
 3.  Cast your vote to **Approve** or **Reject**.
 
 <div class="screenshot">
@@ -78,9 +78,7 @@ Custom function call requests require approval from authorized members according
 
 </div>
 
-:::::tip
 Expired requests can no longer be approved. If the underlying contract method or parameters change, create a new request with the updated values.
-:::::
 
 ---
 
@@ -88,7 +86,7 @@ Expired requests can no longer be approved. If the underlying contract method or
 
 To export custom function call history to a `.csv` file:
 
-1.  Navigate to the **`Custom Proposals`** section.
+1.  Navigate to the **`Function Calls`** section.
 2.  Switch to the **`History`** tab.
 3.  Click **`Export as CSV`**.
 
