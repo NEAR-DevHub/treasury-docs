@@ -13,7 +13,13 @@ import TabItem from '@theme/TabItem';
 This section covers how to use Custom Function Calls to interact directly with any smart contract on the NEAR network. This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
 
 ::::info
-Custom Function Call is disabled by default. Contact the support team to enable it for your treasury. See [Support](../help/support.md).
+**This is an advanced feature for technical users.**
+
+Creating a custom transaction is a powerful action. Mistakes, such as targeting the wrong contract or using incorrect arguments, can be irreversible. It is designed for users who are comfortable interacting directly with smart contracts. Please proceed with caution.
+::::
+
+::::info
+This feature is disabled by default for security. To enable it for your treasury, please contact our [support](../help/support.md) team.
 ::::
 
 **Available actions:**
