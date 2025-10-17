@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 sidebar_label: "Changelog"
 title: Latest Changes
 description: Latest changes and updates on NEAR Treasury.
@@ -27,7 +27,6 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 - Updated wallet selector in Web4 to the latest version. Added support for Intear, Hot, and NEAR Mobile wallets, and removed support for Here wallet.
 - Added a timezone selector in Settings → Preferences, allowing users to choose their timezone and time format, with standardized date displays across NEAR Treasury.
 - Added filter options in the Settings page — users can now filter by proposal type, creation date, status, approver, and creator.
-
 
 **Bug Fixes 🐛**
 
