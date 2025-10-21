@@ -152,6 +152,35 @@ The **`Theme & Logo`** section lets Admins personalize the look of your dashboar
 <img src="/img/settings/theme.png" width="70%" alt="theme logo" />
 </div>
 
+<br />
+
+To set your Treasury logo and preferred theme:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Theme & Logo`** tab.
+3. Upload your logo image. (SVG, PNG, or JPG, 256x256 px)
+4. Set the Primary color value.
+5. Set the Theme. (Dark or Light)
+5. Click the **`Submit Request`** button.
+
+## Preferences
+
+The **`Preferences`** section allows users to choose their preferred timezone and time format, with standardized date displays across NEAR Treasury.
+
+<div class="screenshot">
+<img src="/img/settings/preferences.png" width="90%" alt="preferences" />
+</div>
+
+<br />
+
+To set your timezone and preferred time format:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Preferences`** tab.
+3. Set the Time Format. (12-hour or 24-hour)
+4. Set the Timezone manually, or use the automatic setting by location.
+5. Click the **`Save Changes`** button.
+
 ## System Updates
 
 The **`System Update`** section allows Admins to review, approve, and apply pending updates to their treasury instance.
