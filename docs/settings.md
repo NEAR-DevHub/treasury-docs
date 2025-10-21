@@ -24,6 +24,7 @@ The Settings section allows Admins (see [Roles & Permissions](setup/permissions.
 - [Setting Vote Thresholds](#setting-thresholds)
 - [Setting Vote Duration](#voting-duration)
 - [Theme & Logo](#theme--logo)
+- [Preferences](#preferences)
 - [Reviewing System Updates](#reviewing-system-updates)
 
 ## Pending Requests
