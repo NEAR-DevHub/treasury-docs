@@ -49,7 +49,7 @@ To review and vote on pending requests:
 You can sort requests by date by clicking on `Created Date`. (Ascending or descending order)
 :::
 
-## Filtering Requests
+### Filtering Requests
 
 You can easily filter requests to find specific items.
 
@@ -79,7 +79,7 @@ To filter requests:
     <img src="/img/settings/req-filter-3.png" width="100%" alt="Apply payment filter" />
     </div>
 
-## Searching Requests
+### Searching Requests
 
 You can search for keywords on your requests to find specific items.
 
