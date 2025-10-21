@@ -45,6 +45,64 @@ To review and vote on pending requests:
 
 </div>
 
+:::tip
+You can sort requests by date by clicking on `Created Date`. (Ascending or descending order)
+:::
+
+## Filtering Requests
+
+You can easily filter requests to find specific items.
+
+:::info Available filters
+- `Proposal Type`, `Created Date`, `Status`, `Created by`, `Approver`, `My Vote Status`
+:::
+
+To filter requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. Click on the **`Filter`** icon.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-1.png" width="100%" alt="Open payment filters" />
+    </div>
+
+4.  Select the filter that you want to add.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-2.png" width="90%" alt="Add payment filter" />
+    </div>
+
+5.  Add filters as needed.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-3.png" width="70%" alt="Apply payment filter" />
+    </div>
+
+## Searching Requests
+
+You can search for keywords on your requests to find specific items.
+
+:::info Available search fields
+- Search by `ID`, `Title`, `Summary`
+:::
+
+To search and find requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. Click on the **`Search`** text box.
+
+    <div class="screenshot">
+    <img src="/img/payments/search-1.png" width="100%" alt="Search payment requests" />
+    </div>
+
+3.  Type the words that you want to search.
+
+    <div class="screenshot">
+    <img src="/img/payments/search-2.png" width="100%" alt="Add payment filter" />
+    </div>
+
 ## Members
 
 This section allows the Admin to manage the members of your treasury. The Admin can create a request to add new members, edit existing members’ roles, or remove members. These requests must be approved by Admins, based on the configured voting threshold. For a detailed explanation of the different roles and permission, refer to the [Roles & Permissions page](setup/permissions.md).
