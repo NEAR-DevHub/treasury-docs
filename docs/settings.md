@@ -76,7 +76,7 @@ To filter requests:
 5.  Add filters as needed.
 
     <div class="screenshot">
-    <img src="/img/settings/req-filter-3.png" width="70%" alt="Apply payment filter" />
+    <img src="/img/settings/req-filter-3.png" width="100%" alt="Apply payment filter" />
     </div>
 
 ## Searching Requests
@@ -94,13 +94,13 @@ To search and find requests:
 3. Click on the **`Search`** text box.
 
     <div class="screenshot">
-    <img src="/img/payments/search-1.png" width="100%" alt="Search payment requests" />
+    <img src="/img/settings/req-search-1.png" width="100%" alt="Search requests" />
     </div>
 
-3.  Type the words that you want to search.
+4.  Type the words that you want to search.
 
     <div class="screenshot">
-    <img src="/img/payments/search-2.png" width="100%" alt="Add payment filter" />
+    <img src="/img/settings/req-search-2.png" width="100%" alt="Search request filter" />
     </div>
 
 ## Members
