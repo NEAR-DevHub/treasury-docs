@@ -22,11 +22,19 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 ## October 2025
 
+<!--
+- Added Global Contract deployment support for Treasury instances: reduces treasury instance creation costs and enables centralized updates.
+-->
+
 **What's New ✨**
 
-- Updated wallet selector in Web4 to the latest version. Added support for Intear, Hot, and NEAR Mobile wallets, and removed support for Here wallet.
-- Added a timezone selector in Settings → Preferences, allowing users to choose their timezone and time format, with standardized date displays across NEAR Treasury.
-- Added filter options in the Settings page — users can now filter by proposal type, creation date, status, approver, and creator.
+- Added Function Calls support: users can interact directly with any smart contract on the NEAR network.
+  - This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
+- Updated wallet selector in Web4 to the latest version.
+  - Added support for Intear, Hot, and NEAR Mobile wallets.
+  - Removed support for Here wallet.
+- Added a timezone selector in `Settings` → `Preferences`, allowing users to choose their timezone and time format, with standardized date displays across NEAR Treasury.
+- Added filter options in the `Settings` page: users can now filter by proposal type, creation date, status, approver, and creator.
 
 **Bug Fixes 🐛**
 
