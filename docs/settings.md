@@ -24,6 +24,7 @@ The Settings section allows Admins (see [Roles & Permissions](setup/permissions.
 - [Setting Vote Thresholds](#setting-thresholds)
 - [Setting Vote Duration](#voting-duration)
 - [Theme & Logo](#theme--logo)
+- [Preferences](#preferences)
 - [Reviewing System Updates](#reviewing-system-updates)
 
 ## Pending Requests
@@ -43,6 +44,64 @@ To review and vote on pending requests:
 ![Settings](/img/settings/request.png)
 
 </div>
+
+:::tip
+You can sort requests by date by clicking on `Created Date`. (Ascending or descending order)
+:::
+
+### Filtering Requests
+
+You can easily filter requests to find specific items.
+
+:::info Available filters
+- `Proposal Type`, `Created Date`, `Status`, `Created by`, `Approver`, `My Vote Status`
+:::
+
+To filter requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. Click on the **`Filter`** icon.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-1.png" width="100%" alt="Open payment filters" />
+    </div>
+
+4.  Select the filter that you want to add.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-2.png" width="90%" alt="Add payment filter" />
+    </div>
+
+5.  Add filters as needed.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-filter-3.png" width="100%" alt="Apply payment filter" />
+    </div>
+
+### Searching Requests
+
+You can search for keywords on your requests to find specific items.
+
+:::info Available search fields
+- Search by `ID`, `Title`, `Summary`
+:::
+
+To search and find requests:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Pending Requests`** tab.
+3. Click on the **`Search`** text box.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-search-1.png" width="100%" alt="Search requests" />
+    </div>
+
+4.  Type the words that you want to search.
+
+    <div class="screenshot">
+    <img src="/img/settings/req-search-2.png" width="100%" alt="Search request filter" />
+    </div>
 
 ## Members
 
@@ -151,6 +210,35 @@ The **`Theme & Logo`** section lets Admins personalize the look of your dashboar
 <div class="screenshot">
 <img src="/img/settings/theme.png" width="70%" alt="theme logo" />
 </div>
+
+<br />
+
+To set your Treasury logo and preferred theme:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Theme & Logo`** tab.
+3. Upload your logo image. (SVG, PNG, or JPG, 256x256 px)
+4. Set the Primary color value.
+5. Set the Theme. (Dark or Light)
+5. Click the **`Submit Request`** button.
+
+## Preferences
+
+The **`Preferences`** section allows users to choose their preferred timezone and time format, with standardized date displays across NEAR Treasury.
+
+<div class="screenshot">
+<img src="/img/settings/preferences.png" width="90%" alt="preferences" />
+</div>
+
+<br />
+
+To set your timezone and preferred time format:
+
+1. Navigate to the **`Settings`** section.
+2. Select the **`Preferences`** tab.
+3. Set the Time Format. (12-hour or 24-hour)
+4. Set the Timezone manually, or use the automatic setting by location.
+5. Click the **`Save Changes`** button.
 
 ## System Updates
 
