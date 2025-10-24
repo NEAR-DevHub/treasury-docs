@@ -12,14 +12,11 @@ import TabItem from '@theme/TabItem';
 
 This section covers how to use Function Calls to interact directly with any smart contract on the NEAR network. This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
 
-<div class="theme-admonition theme-admonition-warning alert alert--warning admonition_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
-<div class="admonitionHeading_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
-<span class="admonitionIcon_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
+<div class="theme-admonition theme-admonition-warning alert alert--warning admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy">
 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
 </span>Warning: This is an advanced feature for technical users</div>
-<div class="admonitionContent_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-styles-module">
-<p>Creating a custom transaction request is a powerful action. Mistakes, such as targeting the wrong contract or using incorrect arguments, can be irreversible. It is designed for users who are comfortable interacting directly with smart contracts. Please proceed with caution.</p></div>
-</div>
+<div class="admonitionContent_S0QG"><p>Creating a custom transaction request is a powerful action. Mistakes, such as targeting the wrong contract or using incorrect arguments, can be irreversible. It is designed for users who are comfortable interacting directly with smart contracts. Please proceed with caution.</p>
+</div></div>
 
 :::info
 This feature is disabled by default for security. To enable it for your treasury, please contact our [support team](../help/support.md).
