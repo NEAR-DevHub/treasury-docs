@@ -28,7 +28,7 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What's New ✨**
 
-- Added Function Calls support: users can interact directly with any smart contract on the NEAR network.
+- Added [Function Calls support](advanced/function-calls.md): users can interact directly with any smart contract on the NEAR network.
   - This is an advanced feature that allows the DAO to execute any contract method via a multi-sig proposal.
 - Updated wallet selector in Web4 to the latest version.
   - Added support for Intear, Hot, and NEAR Mobile wallets.
