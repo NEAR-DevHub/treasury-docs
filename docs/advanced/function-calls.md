@@ -25,7 +25,7 @@ This section covers how to use Function Calls to interact directly with any smar
 </div></div>
 
 :::info
-This feature is disabled by default for security. To enable it for your treasury, please contact our [support team](../help/support.md).
+For security reasons, this feature is disabled by default. To enable it for your Treasury, please contact our [support team](../help/support.md).
 :::
 
 **Available actions:**
