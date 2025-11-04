@@ -19,6 +19,10 @@ The Lockup section allows you to create and manage separate lockups for other re
 
 Here you can view pending lockup requests, their history, and create new requests.
 
+:::info
+To enable the Lockup feature for your Treasury, please contact our [support team](../help/support.md).
+:::
+
 **Available actions:**
 
 - [Lockup Tokens](#lockup-tokens)
