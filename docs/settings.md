@@ -205,7 +205,7 @@ To set a voting duration:
 
 ## Theme & Logo
 
-The **`Theme & Logo`** section lets Admins personalize the look of your dashboard. You can upload a custom logo, choose a primary color, and set the theme to dark or light mode.
+The **`Theme & Logo`** section lets Admins personalize the look of your dashboard. You can upload a custom logo and pick a primary color.
 
 <div class="screenshot">
 <img src="/img/settings/theme.png" width="70%" alt="theme logo" />
