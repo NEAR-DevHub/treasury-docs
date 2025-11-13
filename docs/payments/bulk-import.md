@@ -11,7 +11,7 @@ The Bulk Import feature in NEAR Treasury allows you to efficiently create multip
 :::info Bulk import limits
 Currently, the Bulk Import feature has a limit of 10 payments per import process.
 
-The Treasury team is working on removing this limitation. [Get in touch](../help/support.md) if you want to get updates on this feature.
+The Treasury team is working on removing this limitation. [Get in touch](../help/support.md) if you would like to receive updates on this feature.
 :::
 
 ## Step 1: Complete the Bulk Payment Template
