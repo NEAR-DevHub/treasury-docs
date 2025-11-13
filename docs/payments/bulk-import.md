@@ -6,7 +6,13 @@ description: A Guide to Importing Bulk Payment Requests.
 
 ## Overview
 
-The Bulk Import feature in NEAR Treasury allows you to efficiently create multiple payment requests at once. Simply use our [official template](#accessing-template) (accessible as a Google Sheet), enter your payment data, copy relevant cells (including headers), and paste it into the payment creation flow. This guide will walk you through the process:
+The Bulk Import feature in NEAR Treasury allows you to efficiently create multiple payment requests at once. Simply use our [official template](#accessing-template) (accessible as a Google Sheet), enter your payment data, copy relevant cells (including headers), and paste it into the payment creation flow. This guide will walk you through the process.
+
+:::info Bulk import limits
+Currently, the Bulk Import feature has a limit of 10 payments per import process.
+
+The Treasury team is working on removing this limitation. [Get in touch](../help/support.md) if you want to get updates on this feature.
+:::
 
 ## Step 1: Complete the Bulk Payment Template
 
@@ -103,6 +109,16 @@ Our system will automatically interpret the pasted data and convert it to the re
 
 </div>
 
+## Step 5: Approve Your Imported Requests
+
+After submitting the bulk requests:
+
+1. Open the **`Pending Requests`** list
+
+2. For each request, [**`Approve`** or **`Reject`** the payment](manage-payments.md#approving-or-rejecting-payment-requests).
+
+![Export](/img/import/approve.png)
+
 ## Best Practices
 
 -   Always Use the Official Template: Download the latest version from NEAR Treasury each time you prepare a new bulk import to ensure you have the correct columns and formatting.
@@ -118,7 +134,7 @@ Our system will automatically interpret the pasted data and convert it to the re
 
 ### Exceeding Import Limit?
 
--   The system allows you to import up to a certain number of requests at a time (e.g., the UI may state "You can add up to 10 requests at a time" ). If you try to paste more than this limit, you may encounter an error, or only the allowed number might be processed. If you have many requests, split them into smaller batches.
+-   The system allows you to import up to a certain number of requests at a time (e.g., the UI may state _"You can add up to 10 requests at a time"_ ). If you try to paste more than this limit, you may encounter an error, or only the allowed number might be processed. If you have many requests, split them into smaller batches.
     
 
 ### Data Not Pasting Correctly?
@@ -128,7 +144,7 @@ Our system will automatically interpret the pasted data and convert it to the re
 -   Confirm you've selected all rows, including the header row, before copying.
     
 
-### Errors After Clicking "Validate Data"?
+### Errors After Clicking **`Validate Data`**?
 
 -   The system will usually indicate which row (referring to the data rows after the header) and field caused the problem.
     
@@ -136,14 +152,13 @@ Our system will automatically interpret the pasted data and convert it to the re
     
 -   Check for Common Mistakes:
     
-
--   Ensure all required columns have data for every payment row.
+    -   Ensure all required columns have data for every payment row.
     
--   Verify addresses are correct (e.g. name.near, valid hexadecimal strings).
+    -   Verify addresses are correct (e.g. `name.near`, valid hexadecimal strings).
     
--   Ensure the Requested Token symbol or contract address is accurate and supported by the treasury. Refer to the note in Step 1's column descriptions.
+    -   Ensure the Requested Token symbol or contract address is accurate and supported by the treasury. Refer to the note in Step 1's column descriptions.
     
--   Total Amount should be a number (e.g. 100.50). Do not use currency symbols ($, €) or commas (1,000).
+    -   Total Amount should be a number (e.g. `100.50`). Do not use currency symbols ($, €) or commas (1,000).
     
 
 ### Header Row Problems?
