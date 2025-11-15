@@ -20,11 +20,16 @@ To learn more about upcoming features and improvements, check out the [NEAR Trea
 
 This section tracks the evolution of NEAR Treasury: find out what's new, what's fixed, or just take a trip down memory lane, remembering those bugs of yesterday.
 
-## October 2025
+## November 2025
 
-<!--
-- Added Global Contract deployment support for Treasury instances: reduces treasury instance creation costs and enables centralized updates.
--->
+**What's New ✨**
+
+- Updated web4 dropdown to include the new Treasury React version.
+- Updated Treasury creation flow:
+  - Direct usage of Sputnik-DAO for Treasury creation.
+  - Updated links to use the new React version instead of web4.
+
+## October 2025
 
 **What's New ✨**
 
@@ -38,7 +43,7 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **Bug Fixes 🐛**
 
-- Fixed: Removed Vote buttons on expired NEAR Intents quotes.
+- Fixed: Removed `Vote` buttons on expired NEAR Intents quotes.
 
 ---
 
