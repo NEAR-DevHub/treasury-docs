@@ -24,10 +24,10 @@ This section tracks the evolution of NEAR Treasury: find out what's new, what's 
 
 **What's New ✨**
 
-- Updated web4 dropdown to include the new React version
+- Updated web4 dropdown to include the new Treasury React version
 - Updated Treasury creation flow
   - Direct usage of Sputnik-DAO for Treasury creation
-  - Updated links to use the new Treasury React version instead of web4
+  - Updated links to use the new React version instead of web4
 
 ## October 2025
 
