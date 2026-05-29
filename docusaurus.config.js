@@ -98,6 +98,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'trezu-migration',
+        content:
+          'NEAR Treasury is an open source project and is no longer actively maintained. We recommend switching to <a target="_blank" rel="noopener noreferrer" href="https://docs.trezu.org">Trezu</a>.',
+        backgroundColor: '#ffe5e5',
+        textColor: '#8b0000',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Docs',
         logo: {

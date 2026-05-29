@@ -1,5 +1,8 @@
 # NEAR Treasury Documentation
 
+> [!WARNING]
+> **NEAR Treasury is an open source project and is no longer actively maintained.** We recommend switching to [Trezu](https://docs.trezu.org).
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
